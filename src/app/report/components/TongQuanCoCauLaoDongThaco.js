@@ -208,7 +208,7 @@ export default function TongQuanCoCauLaoDongThaco() {
 
           {/* Chart Description */}
           <div className="text-center mb-8 sm:mb-10 md:mb-12">
-            <p className="text-sm sm:text-base md:text-lg font-bold text-gray-700 px-4">
+            <p className="text-sm sm:text-base md:text-lg font-bold text-black px-4">
               Biểu đồ 1.1. Tình hình nguồn nhân lực của TK theo cấp bậc
             </p>
           </div>
@@ -225,7 +225,7 @@ export default function TongQuanCoCauLaoDongThaco() {
 
           {/* Chart Description 2 */}
           <div className="text-center mb-8 sm:mb-10 md:mb-12">
-            <p className="text-sm sm:text-base md:text-lg font-bold text-gray-700 px-4">
+            <p className="text-sm sm:text-base md:text-lg font-bold text-black px-4">
               Biểu đồ 1.2. Tình hình nguồn nhân lực của TK theo trình độ học
               vấn
             </p>
@@ -243,7 +243,7 @@ export default function TongQuanCoCauLaoDongThaco() {
 
           {/* Chart Description 3 */}
           <div className="text-center mb-8 sm:mb-10 md:mb-12">
-            <p className="text-sm sm:text-base md:text-lg font-bold text-gray-700 px-4">
+            <p className="text-sm sm:text-base md:text-lg font-bold text-black px-4">
               Biểu đồ 1.3. Tình hình nguồn nhân lực của TK theo độ tuổi
             </p>
           </div>
@@ -260,7 +260,7 @@ export default function TongQuanCoCauLaoDongThaco() {
 
           {/* Chart Description 4 */}
           <div className="text-center">
-            <p className="text-sm sm:text-base md:text-lg font-bold text-gray-700 px-4">
+            <p className="text-sm sm:text-base md:text-lg font-bold text-black px-4">
               Biểu đồ 1.4. Tình hình nguồn nhân lực của TK theo giới tính
             </p>
           </div>

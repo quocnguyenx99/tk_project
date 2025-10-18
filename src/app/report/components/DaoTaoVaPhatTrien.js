@@ -77,8 +77,8 @@ export default function DaoTaoVaPhatTrien() {
           {/* Bảng: OKR cấp phòng ban */}
           <div className="mt-10 mb-12">
             <div className="text-center mb-4 sm:mb-6">
-              <h2 className="text-base sm:text-lg md:text-xl font-semibold text-gray-800">
-                Bảng: OKR cấp phòng ban
+              <h2 className="text-base sm:text-lg md:text-xl font-semibold text-black">
+                Bảng 1: OKR cấp phòng ban
               </h2>
             </div>
 
@@ -234,8 +234,8 @@ export default function DaoTaoVaPhatTrien() {
           {/* Bảng: OKR cấp domain */}
           <div className="mt-10 mb-12">
             <div className="text-center mb-4 sm:mb-6">
-              <h2 className="text-base sm:text-lg md:text-xl font-semibold text-gray-800">
-                Bảng: OKR cấp domain
+              <h2 className="text-base sm:text-lg md:text-xl font-semibold text-black">
+                Bảng 2: OKR cấp domain
               </h2>
             </div>
             <div className="bg-white rounded-lg">
@@ -389,8 +389,8 @@ export default function DaoTaoVaPhatTrien() {
           </div>
 
           <div className="text-center mb-4 sm:mb-6">
-              <h2 className="text-base sm:text-lg md:text-xl font-semibold text-gray-800">
-                Bảng: OKR cấp cá nhân
+              <h2 className="text-base sm:text-lg md:text-xl font-semibold text-black">
+                Bảng 3: OKR cấp cá nhân
               </h2>
             </div>
 
@@ -858,7 +858,7 @@ export default function DaoTaoVaPhatTrien() {
 
           {/* Ví dụ về một PLAT trên Jira */}
           <div className="mt-10">
-            <h2 className="text-xl font-semibold mb-4 text-center text-gray-800">
+            <h2 className="text-xl font-semibold mb-4 text-center text-black">
               Ví dụ về một PLAT trên Jira
             </h2>
             <div className="relative mx-auto w-full max-w-4xl rounded-lg border border-gray-200 shadow bg-gray-50 overflow-hidden">

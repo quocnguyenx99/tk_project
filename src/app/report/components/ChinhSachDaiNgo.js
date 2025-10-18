@@ -11,8 +11,8 @@ export default function ChinhSachDaiNgo() {
 
           {/* Title for the table */}
           <div className="text-center mb-4 sm:mb-6">
-            <h2 className="text-base sm:text-lg md:text-xl font-semibold text-gray-800">
-              Bảng: OKR cấp phòng ban
+            <h2 className="text-base sm:text-lg md:text-xl font-semibold text-black">
+              Bảng 1: OKR cấp phòng ban
             </h2>
           </div>
 
@@ -22,34 +22,34 @@ export default function ChinhSachDaiNgo() {
               <table className="w-full border-collapse border border-gray-400 min-w-[1100px] xl:min-w-0">
                 <thead>
                   <tr className="bg-blue-100">
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       OKR
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Metrics
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Epic/Task
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Weight
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Current
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Target Q4
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Priority
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Type
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800 whitespace-nowrap">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black whitespace-nowrap">
                       T10/ W3 1/11
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Note
                     </th>
                   </tr>
@@ -214,8 +214,8 @@ export default function ChinhSachDaiNgo() {
 
           {/* Title for the personal OKR table */}
           <div className="text-center mt-8 sm:mt-10 mb-4 sm:mb-6">
-            <h2 className="text-base sm:text-lg md:text-xl font-semibold text-gray-800">
-              Bảng: OKR cấp cá nhân
+            <h2 className="text-base sm:text-lg md:text-xl font-semibold text-black">
+              Bảng 2: OKR cấp cá nhân
             </h2>
           </div>
 
@@ -225,31 +225,31 @@ export default function ChinhSachDaiNgo() {
               <table className="w-full border-collapse border border-gray-400 min-w-[1100px] xl:min-w-0">
                 <thead>
                   <tr className="bg-blue-100">
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       OKR
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Name
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       EPIC
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Type
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Weight
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Initial
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Target
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Actual
                     </th>
-                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-gray-800">
+                    <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-black">
                       Note
                     </th>
                   </tr>

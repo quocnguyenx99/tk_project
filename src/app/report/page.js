@@ -79,14 +79,14 @@ export default function Report() {
 
                 {/* Title with slide-up animation */}
                 <div className="transform transition-all duration-500 group-hover:-translate-y-2 sm:group-hover:-translate-y-4">
-                  <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 group-hover:text-white mb-3 sm:mb-4 transition-all duration-500 leading-tight">
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-black group-hover:text-white mb-3 sm:mb-4 transition-all duration-500 leading-tight">
                     {report.title}
                   </h3>
                 </div>
 
                 {/* Description with fade-in and slide-up animation */}
                 <div className="transform transition-all duration-500 translate-y-6 sm:translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                  <p className="text-sm sm:text-base text-gray-600 group-hover:text-white/90">
+                  <p className="text-sm sm:text-base text-black group-hover:text-white/90">
                     {report.description}
                   </p>
                 </div>

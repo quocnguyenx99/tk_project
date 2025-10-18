@@ -57,7 +57,7 @@ export default function Career() {
 						<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 mt-0">
 							{/* Khối phát triển sản phẩm */}
 							<div className="bg-white rounded-lg border-2 border-gray-300 p-6 shadow-lg">
-								<h3 className="font-bold text-center mb-6 text-gray-800 border-b-2 pb-3 text-lg">
+								<h3 className="font-bold text-center mb-6 text-black border-b-2 pb-3 text-lg">
 									Khối phát triển sản phẩm
 								</h3>
 								<div className="space-y-4">
@@ -75,7 +75,7 @@ export default function Career() {
 
 							{/* Khối Công nghệ */}
 							<div className="bg-white rounded-lg border-2 border-gray-300 p-6 shadow-lg">
-								<h3 className="font-bold text-center mb-6 text-gray-800 border-b-2 pb-3 text-lg">
+								<h3 className="font-bold text-center mb-6 text-black border-b-2 pb-3 text-lg">
 									Khối Công nghệ
 								</h3>
 								<div className="space-y-4">
@@ -93,7 +93,7 @@ export default function Career() {
 
 							{/* Khối Quản trị Nhân sự */}
 							<div className="bg-white rounded-lg border-2 border-gray-300 p-6 shadow-lg">
-								<h3 className="font-bold text-center mb-6 text-gray-800 border-b-2 pb-3 text-lg">
+								<h3 className="font-bold text-center mb-6 text-black border-b-2 pb-3 text-lg">
 									Khối Quản trị Nhân sự
 								</h3>
 								<div className="space-y-4">
@@ -114,7 +114,7 @@ export default function Career() {
 
 							{/* Khối Tài chính */}
 							<div className="bg-white rounded-lg border-2 border-gray-300 p-6 shadow-lg">
-								<h3 className="font-bold text-center mb-6 text-gray-800 border-b-2 pb-3 text-lg">
+								<h3 className="font-bold text-center mb-6 text-black border-b-2 pb-3 text-lg">
 									Khối Tài chính
 								</h3>
 								<div className="space-y-4">

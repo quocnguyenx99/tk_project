@@ -37,7 +37,7 @@ export default function Footer() {
           </ul>
         </nav>
         {/* Copyright */}
-        <p className="text-xs text-gray-500">
+        <p className="text-xs text-black">
           Copyright © 2025 HRM K35.1. All Rights Reserved
         </p>
       </div>

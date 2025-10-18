@@ -98,7 +98,7 @@ export default function Contact() {
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-primary mb-2 mt-2 sm:mt-4 px-4">
           Liên hệ
         </h1>
-        <p className="text-gray-500 text-center mb-6 sm:mb-8 text-sm sm:text-base px-4">
+        <p className="text-black text-center mb-6 sm:mb-8 text-sm sm:text-base px-4">
           Có câu hỏi hay góp ý? Hãy để lại tin nhắn cho chúng tôi!
         </p>
 
@@ -118,7 +118,7 @@ export default function Contact() {
                 </div>
               )}
               <div>
-                <label className="block text-gray-700 font-medium mb-1 text-sm">
+                <label className="block text-black font-medium mb-1 text-sm">
                   Họ và tên<span className="text-red-500">*</span>
                 </label>
                 <input
@@ -132,7 +132,7 @@ export default function Contact() {
                 />
               </div>
               <div>
-                <label className="block text-gray-700 font-medium mb-1 text-sm">
+                <label className="block text-black font-medium mb-1 text-sm">
                   Email<span className="text-red-500">*</span>
                 </label>
                 <input
@@ -146,7 +146,7 @@ export default function Contact() {
                 />
               </div>
               <div>
-                <label className="block text-gray-700 font-medium mb-1 text-sm">
+                <label className="block text-black font-medium mb-1 text-sm">
                   Nội dung
                 </label>
                 <textarea
@@ -284,7 +284,7 @@ export default function Contact() {
               </div>
             )}
             <div>
-              <label className="block text-gray-700 font-medium mb-1">
+              <label className="block text-black font-medium mb-1">
                 Họ và tên<span className="text-red-500">*</span>
               </label>
               <input
@@ -298,7 +298,7 @@ export default function Contact() {
               />
             </div>
             <div>
-              <label className="block text-gray-700 font-medium mb-1">
+              <label className="block text-black font-medium mb-1">
                 Email<span className="text-red-500">*</span>
               </label>
               <input
@@ -312,7 +312,7 @@ export default function Contact() {
               />
             </div>
             <div>
-              <label className="block text-gray-700 font-medium mb-1">
+              <label className="block text-black font-medium mb-1">
                 Nội dung
               </label>
               <textarea

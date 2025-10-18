@@ -219,7 +219,7 @@ const Header = () => {
                       className={`block px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
                         isActive
                           ? "bg-blue-50 text-primary border-l-4 border-primary"
-                          : "text-gray-700 hover:bg-gray-50 hover:text-primary"
+                          : "text-black hover:bg-gray-50 hover:text-primary"
                       }`}
                     >
                       {item.name}

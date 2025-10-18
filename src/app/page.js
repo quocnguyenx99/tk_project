@@ -121,7 +121,7 @@ export default function Home() {
                     Tầm nhìn
                   </h3>
                 </div>
-                <p className="text-gray-700 text-base mt-2 md:ml-[160px]">
+                <p className="text-black text-base mt-2 md:ml-[160px]">
                   Trở thành một tập đoàn công nghệ hàng đầu, tập trung vào việc
                   phát triển đội ngũ nhân sự chất lượng cao, xây dựng các sản
                   phẩm công nghệ mới và "Go Global" (mở rộng ra thị trường quốc
@@ -146,7 +146,7 @@ export default function Home() {
                     Sứ mệnh
                   </h3>
                 </div>
-                <p className="text-gray-700 text-base mt-2 md:ml-[160px]">
+                <p className="text-black text-base mt-2 md:ml-[160px]">
                   Thay đổi cuộc sống con người bằng cách cung cấp những trải
                   nghiệm tuyệt vời trên nền tảng internet.
                 </p>
@@ -169,7 +169,7 @@ export default function Home() {
                     Giá trị cốt lõi
                   </h3>
                 </div>
-                <div className="text-gray-700 text-base mt-2 md:ml-[160px] space-y-1">
+                <div className="text-black text-base mt-2 md:ml-[160px] space-y-1">
                   <p>• Lấy khách hàng làm trung tâm (Customer-driven)</p>
                   <p>• Hướng tới mục tiêu (Goal-driven)</p>
                   <p>• Lấy con người làm trọng tâm (People-driven)</p>
@@ -187,7 +187,7 @@ export default function Home() {
           <div className="text-center mb-8">
             <div className="w-12 h-1 bg-secondary mx-auto mb-4 rounded" />
             <h2 className="text-xl font-bold text-primary mb-3">Về THACO</h2>
-            <p className="text-sm text-gray-600 max-w-2xl mx-auto">
+            <p className="text-sm text-black max-w-2xl mx-auto">
               Tập đoàn Trường Hải với tầm nhìn, sứ mạng và chiến lược phát triển
               bền vững
             </p>
@@ -227,7 +227,7 @@ export default function Home() {
                 </h3>
 
                 {/* Content */}
-                <p className="text-sm text-gray-700 leading-relaxed">
+                <p className="text-sm text-black leading-relaxed">
                   Tập đoàn công nghiệp đa ngành hàng đầu khu vực ASEAN, phát
                   triển bền vững trong bối cảnh hội nhập khu vực và thế giới.
                 </p>
@@ -259,7 +259,7 @@ export default function Home() {
                 <h3 className="text-lg font-bold text-primary mb-3">Sứ mạng</h3>
 
                 {/* Content */}
-                <p className="text-sm text-gray-700 leading-relaxed">
+                <p className="text-sm text-black leading-relaxed">
                   Mang lại giá trị cho khách hàng, đối tác, xã hội và phát triển
                   kinh tế đất nước với tinh thần "Tận tâm phục vụ".
                 </p>
@@ -293,7 +293,7 @@ export default function Home() {
                 </h3>
 
                 {/* Content */}
-                <p className="text-sm text-gray-700 leading-relaxed">
+                <p className="text-sm text-black leading-relaxed">
                   THACO là Tập đoàn công nghiệp đa ngành có các Tập đoàn thành
                   viên hoạt động trong các lĩnh vực: Ô tô, Nông nghiệp, Cơ khí &
                   Công nghiệp hỗ trợ, Đầu tư & Xây dựng, Thương mại & Dịch vụ và
@@ -312,7 +312,7 @@ export default function Home() {
           <div className="text-center mb-8">
             <div className="w-12 h-1 bg-secondary mx-auto mb-4 rounded" />
             <h2 className="text-xl font-bold text-primary mb-3">Về THACO</h2>
-            <p className="text-sm text-gray-600 max-w-2xl mx-auto">
+            <p className="text-sm text-black max-w-2xl mx-auto">
               Tập đoàn Trường Hải với tầm nhìn, sứ mạng và chiến lược phát triển
               bền vững
             </p>
@@ -352,7 +352,7 @@ export default function Home() {
                 </h3>
 
                 {/* Content */}
-                <p className="text-sm text-gray-700 leading-relaxed">
+                <p className="text-sm text-black leading-relaxed">
                   Tập đoàn công nghiệp đa ngành hàng đầu khu vực ASEAN, phát
                   triển bền vững trong bối cảnh hội nhập khu vực và thế giới.
                 </p>
@@ -384,7 +384,7 @@ export default function Home() {
                 <h3 className="text-lg font-bold text-primary mb-3">Sứ mạng</h3>
 
                 {/* Content */}
-                <p className="text-sm text-gray-700 leading-relaxed">
+                <p className="text-sm text-black leading-relaxed">
                   Mang lại giá trị cho khách hàng, đối tác, xã hội và phát triển
                   kinh tế đất nước với tinh thần "Tận tâm phục vụ".
                 </p>
@@ -418,7 +418,7 @@ export default function Home() {
                 </h3>
 
                 {/* Content */}
-                <p className="text-sm text-gray-700 leading-relaxed">
+                <p className="text-sm text-black leading-relaxed">
                   THACO là Tập đoàn công nghiệp đa ngành có các Tập đoàn thành
                   viên hoạt động trong các lĩnh vực: Ô tô, Nông nghiệp, Cơ khí &
                   Công nghiệp hỗ trợ, Đầu tư & Xây dựng, Thương mại & Dịch vụ và
