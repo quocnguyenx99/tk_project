@@ -67,7 +67,7 @@ export default function Contact() {
         <div className="absolute inset-0 w-full h-full z-0">
           <Image
             src="/images/lien_he.jpg"
-            alt="Contact Us Banner"
+            alt="Ảnh liên hệ"
             fill
             className="object-cover"
             priority
@@ -82,12 +82,12 @@ export default function Contact() {
             <div className="flex flex-col items-center">
               <div className="w-12 sm:w-16 h-1 bg-secondary mb-3 sm:mb-4 rounded" />
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-3 sm:mb-4 leading-tight">
-                Contact Us
+                Liên hệ
               </h1>
               <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-medium mb-0 leading-relaxed max-w-2xl">
-                Have any questions or want to get in touch? <br className="hidden sm:block" />
-                Fill out the form below or reach us via the contact information
-                provided.
+                Bạn có câu hỏi hoặc muốn liên hệ?
+                <br className="hidden sm:block" />
+                Hãy điền vào biểu mẫu bên dưới hoặc liên hệ qua thông tin được cung cấp.
               </p>
             </div>
           </div>
@@ -96,10 +96,10 @@ export default function Contact() {
 
       <section className="min-h-screen bg-[#f7fafd] py-8 sm:py-10 md:py-14 flex flex-col items-center">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-primary mb-2 mt-2 sm:mt-4 px-4">
-          Contact Us
+          Liên hệ
         </h1>
         <p className="text-gray-500 text-center mb-6 sm:mb-8 text-sm sm:text-base px-4">
-          Any questions or remarks? Just write us a message!
+          Có câu hỏi hay góp ý? Hãy để lại tin nhắn cho chúng tôi!
         </p>
 
         {/* Mobile Layout */}
@@ -119,7 +119,7 @@ export default function Contact() {
               )}
               <div>
                 <label className="block text-gray-700 font-medium mb-1 text-sm">
-                  Name<span className="text-red-500">*</span>
+                  Họ và tên<span className="text-red-500">*</span>
                 </label>
                 <input
                   type="text"
@@ -127,13 +127,13 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  placeholder="Alex"
+                  placeholder="Nguyễn Văn A"
                   className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary text-sm"
                 />
               </div>
               <div>
                 <label className="block text-gray-700 font-medium mb-1 text-sm">
-                  E-mail Address<span className="text-red-500">*</span>
+                  Email<span className="text-red-500">*</span>
                 </label>
                 <input
                   type="email"
@@ -141,20 +141,20 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  placeholder="example@gmail.com"
+                  placeholder="vidu@gmail.com"
                   className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary text-sm"
                 />
               </div>
               <div>
                 <label className="block text-gray-700 font-medium mb-1 text-sm">
-                  Message
+                  Nội dung
                 </label>
                 <textarea
                   rows={4}
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Write your message"
+                  placeholder="Nhập nội dung tin nhắn"
                   className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary text-sm"
                 />
               </div>
@@ -168,7 +168,7 @@ export default function Contact() {
                       : 'bg-secondary hover:bg-orange-600'
                   } text-white font-semibold px-6 py-2 rounded transition text-sm w-full sm:w-auto`}
                 >
-                  {isLoading ? 'Đang gửi...' : 'Send Inquiry'}
+                  {isLoading ? 'Đang gửi...' : 'Gửi liên hệ'}
                 </button>
               </div>
             </form>
@@ -183,10 +183,10 @@ export default function Contact() {
           >
             <div>
               <h2 className="text-lg sm:text-xl font-semibold mb-2">
-                Contact Information
+                Thông tin liên hệ
               </h2>
               <p className="mb-6 text-white/80 text-sm">
-                Say something to start a live chat!
+                Hãy nhắn điều gì đó để bắt đầu cuộc trò chuyện!
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
@@ -233,10 +233,10 @@ export default function Contact() {
           >
             <div>
               <h2 className="text-2xl font-semibold mb-2">
-                Contact Information
+                Thông tin liên hệ
               </h2>
               <p className="mb-8 text-white/80">
-                Say something to start a live chat!
+                Hãy nhắn điều gì đó để bắt đầu cuộc trò chuyện!
               </p>
               <div className="space-y-6">
                 <div className="flex items-center gap-3">
@@ -285,7 +285,7 @@ export default function Contact() {
             )}
             <div>
               <label className="block text-gray-700 font-medium mb-1">
-                Name<span className="text-red-500">*</span>
+                Họ và tên<span className="text-red-500">*</span>
               </label>
               <input
                 type="text"
@@ -293,13 +293,13 @@ export default function Contact() {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                placeholder="Alex"
+                placeholder="Nguyễn Văn A"
                 className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
             <div>
               <label className="block text-gray-700 font-medium mb-1">
-                E-mail Address<span className="text-red-500">*</span>
+                Email<span className="text-red-500">*</span>
               </label>
               <input
                 type="email"
@@ -307,20 +307,20 @@ export default function Contact() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                placeholder="example@gmail.com"
+                placeholder="vidu@gmail.com"
                 className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
             <div>
               <label className="block text-gray-700 font-medium mb-1">
-                Message
+                Nội dung
               </label>
               <textarea
                 rows={4}
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder="Write your message"
+                placeholder="Nhập nội dung tin nhắn"
                 className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
@@ -334,13 +334,13 @@ export default function Contact() {
                     : 'bg-secondary hover:bg-orange-600'
                 } text-white font-semibold px-6 py-2 rounded transition`}
               >
-                {isLoading ? 'Đang gửi...' : 'Send Inquiry'}
+                {isLoading ? 'Đang gửi...' : 'Gửi liên hệ'}
               </button>
             </div>
             <div className="flex justify-center">
               <Image
                 src="/images/letter_send.png"
-                alt="paper plane"
+                alt="máy bay giấy"
                 width={180}
                 height={180}
                 className="opacity-80 mt-2"

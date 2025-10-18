@@ -4,25 +4,26 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 text-center">
         {/* Navigation Links */}
         <nav className="mb-4">
-          <ul className="flex flex-wrap justify-center space-x-6 space-y-2 md:space-y-0 text-sm text-primary">
-            <li className="mt-2">
+          <ul className="flex flex-wrap justify-center items-center space-x-6 space-y-2 md:space-y-0 text-sm text-primary">
+            <li>
               <a href="/" className="hover:text-light-primary transition">
-                Home
-              </a>
-            </li>
-            <li className="mt-2">
-              <a href="/about" className="hover:text-light-primary transition">
-                About Us
-              </a>
-            </li>
-            <li className="mt-2">
-              <a href="/report" className="hover:text-light-primary transition">
-                Report
+                Trang chủ
               </a>
             </li>
             <li className="mt-2">
               <a href="/career" className="hover:text-light-primary transition">
-                Career
+                Cơ cấu
+              </a>
+            </li>
+
+            <li className="mt-2">
+              <a href="/report" className="hover:text-light-primary transition">
+                Báo cáo
+              </a>
+            </li>
+            <li className="mt-2">
+              <a href="/about" className="hover:text-light-primary transition">
+                Nhóm 3
               </a>
             </li>
             <li className="mt-2">
@@ -30,7 +31,7 @@ export default function Footer() {
                 href="/contact"
                 className="hover:text-light-primary transition"
               >
-                Contact Us
+                Liên hệ nhóm
               </a>
             </li>
           </ul>

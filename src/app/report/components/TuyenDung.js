@@ -221,10 +221,10 @@ export default function TuyenDung() {
 
           {/* Bảng Số ý tưởng được thử nghiệm theo quý */}
           <div className="overflow-x-auto mb-8">
-            <h2 className="text-xl font-semibold mb-4 text-center text-gray-800">
+            <h2 className="text-xl font-semibold mb-4 text-center text-black">
               Số ý tưởng được thử nghiệm theo quý giai đoạn 2022 - 2025
             </h2>
-            <table className="w-full border-collapse border border-gray-300">
+            <table className="w-full border-collapse border text-black border-gray-300">
               <thead>
                 <tr className="bg-gray-100">
                   <th className="border border-gray-300 px-4 py-3 text-center font-semibold">

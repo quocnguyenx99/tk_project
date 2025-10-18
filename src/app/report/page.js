@@ -52,8 +52,7 @@ export default function Report() {
               </h1>
               <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl font-medium mb-0 leading-relaxed max-w-2xl">
                 Dữ liệu về nguồn nhân lực TK giai đoạn 2022–2024 cung cấp cái
-                nhìn toàn diện về cơ cấu nhân sự, tuyển dụng, đào tạo và chế độ
-                đãi ngộ.
+                nhìn toàn diện về cơ cấu nhân sự, thiết lập OKR.
               </p>
             </div>
           </div>

@@ -61,7 +61,7 @@ export default function ChinhSachDaiNgo() {
                       O1
                     </td>
                     <td
-                      className="border border-gray-400 px-3 py-2 text-gray-700 italic"
+                      className="border border-gray-400 px-3 py-2 text-black italic"
                       colSpan={9}
                     >
                       Mục tiêu chính
@@ -70,12 +70,12 @@ export default function ChinhSachDaiNgo() {
                   <tr>
                     <td className="border border-gray-400 px-3 py-2 align-top text-center">
                       <div className="font-semibold">KR1</div>
-                      <div className="text-xs text-gray-500">Kết quả then chốt</div>
+                      <div className="text-xs text-black">Kết quả then chốt</div>
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-gray-700">
+                    <td className="border border-gray-400 px-3 py-2 text-black">
                       Chỉ số đo lường cụ thể
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-gray-700">
+                    <td className="border border-gray-400 px-3 py-2 text-black">
                       Nhiệm vụ
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">

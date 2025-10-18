@@ -25,7 +25,7 @@ export default function Career() {
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-0">
 					<div className="relative max-w-6xl mx-auto">
 						{/* BOD Header */}
-						<div className="flex justify-center items-center mb-4 md:mb-6 xl:mb-8">
+						<div className="flex justify-center items-center mb-4 md:mb-6 xl:mb-0">
 							<div className="inline-block bg-blue-600 text-white px-14 py-5 rounded-lg font-extrabold text-2xl shadow">
 								BOD
 							</div>
@@ -34,22 +34,22 @@ export default function Career() {
 						{/* Connectors (responsive, precisely aligned) */}
 						<div className="relative h-12 md:h-16 xl:h-20 pointer-events-none" aria-hidden="true">
 							{/* Center drop from BOD to main line */}
-							<div className="absolute top-0 left-1/2 -translate-x-1/2 w-0.5 h-6 md:h-8 xl:h-10 bg-blue-400"></div>
-							{/* Main horizontal line */}
-							<div className="absolute top-6 md:top-8 xl:top-10 left-0 right-0 h-0.5 bg-blue-300"></div>
+							<div className="absolute top-0 left-1/2 -translate-x-1/2 w-0.5 h-6 md:h-8 xl:h-10 bg-blue-600"></div>
 
-							{/* xl: 4 columns -> drops at 12.5%, 37.5%, 62.5%, 87.5% */}
+							{/* xl: main horizontal (trimmed ends) + drops */}
 							<div className="hidden xl:block">
-								<div style={{ left: "12.5%" }} className="absolute top-10 bottom-0 w-0.5 bg-blue-300"></div>
-								<div style={{ left: "37.5%" }} className="absolute top-10 bottom-0 w-0.5 bg-blue-300"></div>
-								<div style={{ left: "62.5%" }} className="absolute top-10 bottom-0 w-0.5 bg-blue-300"></div>
-								<div style={{ left: "87.5%" }} className="absolute top-10 bottom-0 w-0.5 bg-blue-300"></div>
+								<div className="absolute top-10 left-[12.5%] right-[12.5%] h-0.5 bg-blue-600"></div>
+								<div style={{ left: "12.5%" }} className="absolute top-10 bottom-0 w-0.5 bg-blue-600"></div>
+								<div style={{ left: "37.5%" }} className="absolute top-10 bottom-0 w-0.5 bg-blue-600"></div>
+								<div style={{ left: "62.5%" }} className="absolute top-10 bottom-0 w-0.5 bg-blue-600"></div>
+								<div style={{ left: "87.5%" }} className="absolute top-10 bottom-0 w-0.5 bg-blue-600"></div>
 							</div>
 
-							{/* md–lg: 2 columns -> drops at 25% and 75% */}
+							{/* md–lg: main horizontal (trimmed ends) + drops */}
 							<div className="hidden md:block xl:hidden">
-								<div style={{ left: "25%" }} className="absolute top-8 bottom-0 w-0.5 bg-blue-300"></div>
-								<div style={{ left: "75%" }} className="absolute top-8 bottom-0 w-0.5 bg-blue-300"></div>
+								<div className="absolute top-8 left-[25%] right-[25%] h-0.5 bg-blue-600"></div>
+								<div style={{ left: "25%" }} className="absolute top-8 bottom-0 w-0.5 bg-blue-600"></div>
+								<div style={{ left: "75%" }} className="absolute top-8 bottom-0 w-0.5 bg-blue-600"></div>
 							</div>
 						</div>
 
@@ -61,13 +61,13 @@ export default function Career() {
 									Khối phát triển sản phẩm
 								</h3>
 								<div className="space-y-4">
-									<div className="bg-blue-50 p-4 rounded-lg text-center text-sm border border-blue-200">
+									<div className="bg-blue-200 p-4 rounded-lg text-center text-sm border border-blue-400">
 										Bộ phận Quản trị Dự án
 									</div>
-									<div className="bg-blue-50 p-4 rounded-lg text-center text-sm border border-blue-200">
+									<div className="bg-blue-200 p-4 rounded-lg text-center text-sm border border-blue-400">
 										Bộ phận Quản lý chất lượng
 									</div>
-									<div className="bg-blue-50 p-4 rounded-lg text-center text-sm border border-blue-200">
+									<div className="bg-blue-200 p-4 rounded-lg text-center text-sm border border-blue-400">
 										Bộ phận Kinh doanh
 									</div>
 								</div>
@@ -79,13 +79,13 @@ export default function Career() {
 									Khối Công nghệ
 								</h3>
 								<div className="space-y-4">
-									<div className="bg-blue-50 p-4 rounded-lg text-center text-sm border border-blue-200">
+									<div className="bg-blue-200 p-4 rounded-lg text-center text-sm border border-blue-400">
 										Bộ phận Lập trình dự án
 									</div>
-									<div className="bg-blue-50 p-4 rounded-lg text-center text-sm border border-blue-200">
+									<div className="bg-blue-200 p-4 rounded-lg text-center text-sm border border-blue-400">
 										Bộ phận Hạ tầng - CSDL
 									</div>
-									<div className="bg-blue-50 p-4 rounded-lg text-center text-sm border border-blue-200">
+									<div className="bg-blue-200 p-4 rounded-lg text-center text-sm border border-blue-400">
 										Bộ phận AI & Machine Learning
 									</div>
 								</div>
@@ -97,16 +97,16 @@ export default function Career() {
 									Khối Quản trị Nhân sự
 								</h3>
 								<div className="space-y-4">
-									<div className="bg-blue-50 p-4 rounded-lg text-center text-sm border border-blue-200">
+									<div className="bg-blue-200 p-4 rounded-lg text-center text-sm border border-blue-400">
 										Bộ phận Tuyển dụng
 									</div>
-									<div className="bg-blue-50 p-4 rounded-lg text-center text-sm border border-blue-200">
+									<div className="bg-blue-200 p-4 rounded-lg text-center text-sm border border-blue-400">
 										Bộ phận Đào tạo & Phát triển
 									</div>
-									<div className="bg-blue-50 p-4 rounded-lg text-center text-sm border border-blue-200">
+									<div className="bg-blue-200 p-4 rounded-lg text-center text-sm border border-blue-400">
 										Bộ phận Lương & Phúc lợi
 									</div>
-									<div className="bg-blue-50 p-4 rounded-lg text-center text-sm border border-blue-200">
+									<div className="bg-blue-200 p-4 rounded-lg text-center text-sm border border-blue-400">
 										Bộ phận Hành chính
 									</div>
 								</div>
@@ -118,10 +118,10 @@ export default function Career() {
 									Khối Tài chính
 								</h3>
 								<div className="space-y-4">
-									<div className="bg-blue-50 p-4 rounded-lg text-center text-sm border border-blue-200">
+									<div className="bg-blue-200 p-4 rounded-lg text-center text-sm border border-blue-400">
 										Bộ phận Kế toán
 									</div>
-									<div className="bg-blue-50 p-4 rounded-lg text-center text-sm border border-blue-200">
+									<div className="bg-blue-200 p-4 rounded-lg text-center text-sm border border-blue-400">
 										Bộ phận Đầu tư
 									</div>
 								</div>
