@@ -186,10 +186,11 @@ export default function Home() {
           {/* Section Header */}
           <div className="text-center mb-8">
             <div className="w-12 h-1 bg-secondary mx-auto mb-4 rounded" />
-            <h2 className="text-xl font-bold text-primary mb-3">Về THACO</h2>
+            <h2 className="text-xl font-bold text-primary mb-3">
+              Tầm nhìn - Sứ mệnh - Giá trị cốt lõi
+            </h2>
             <p className="text-sm text-black max-w-2xl mx-auto">
-              Tập đoàn Trường Hải với tầm nhìn, sứ mạng và chiến lược phát triển
-              bền vững
+              Tầm nhìn, sứ mệnh và giá trị cốt lõi của TK Việt Nam
             </p>
           </div>
 
@@ -228,14 +229,16 @@ export default function Home() {
 
                 {/* Content */}
                 <p className="text-sm text-black leading-relaxed">
-                  Tập đoàn công nghiệp đa ngành hàng đầu khu vực ASEAN, phát
-                  triển bền vững trong bối cảnh hội nhập khu vực và thế giới.
+                  Trở thành một tập đoàn công nghệ hàng đầu, tập trung vào việc
+                  phát triển đội ngũ nhân sự chất lượng cao, xây dựng các sản
+                  phẩm công nghệ mới và "Go Global" (mở rộng ra thị trường quốc
+                  tế).
                 </p>
               </div>
               <div className="h-1 bg-gradient-to-r from-blue-500 to-blue-600"></div>
             </div>
 
-            {/* Sứ mạng Card */}
+            {/* Sứ mệnh Card */}
             <div className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
               <div className="p-5">
                 {/* Icon */}
@@ -256,18 +259,18 @@ export default function Home() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-lg font-bold text-primary mb-3">Sứ mạng</h3>
+                <h3 className="text-lg font-bold text-primary mb-3">Sứ mệnh</h3>
 
                 {/* Content */}
                 <p className="text-sm text-black leading-relaxed">
-                  Mang lại giá trị cho khách hàng, đối tác, xã hội và phát triển
-                  kinh tế đất nước với tinh thần "Tận tâm phục vụ".
+                  Thay đổi cuộc sống con người bằng cách cung cấp những trải
+                  nghiệm tuyệt vời trên nền tảng internet.
                 </p>
               </div>
               <div className="h-1 bg-gradient-to-r from-secondary to-orange-600"></div>
             </div>
 
-            {/* Chiến lược Card */}
+            {/* Giá trị cốt lõi Card */}
             <div className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
               <div className="p-5">
                 {/* Icon */}
@@ -289,17 +292,17 @@ export default function Home() {
 
                 {/* Title */}
                 <h3 className="text-lg font-bold text-primary mb-3">
-                  Chiến lược
+                  Giá trị cốt lõi
                 </h3>
 
                 {/* Content */}
-                <p className="text-sm text-black leading-relaxed">
-                  THACO là Tập đoàn công nghiệp đa ngành có các Tập đoàn thành
-                  viên hoạt động trong các lĩnh vực: Ô tô, Nông nghiệp, Cơ khí &
-                  Công nghiệp hỗ trợ, Đầu tư & Xây dựng, Thương mại & Dịch vụ và
-                  Logistics, có tính bổ trợ và tích hợp cao, tham gia chuỗi giá
-                  trị toàn cầu và chuyển đổi số.
-                </p>
+                <div className="text-sm text-black leading-relaxed space-y-1">
+                  <p>• Lấy khách hàng làm trung tâm</p>
+                  <p>• Hướng tới mục tiêu</p>
+                  <p>• Lấy con người làm trọng tâm</p>
+                  <p>• Chính trực</p>
+                  <p>• Thích ứng</p>
+                </div>
               </div>
               <div className="h-1 bg-gradient-to-r from-green-500 to-green-600"></div>
             </div>

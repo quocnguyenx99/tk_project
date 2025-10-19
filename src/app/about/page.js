@@ -19,23 +19,17 @@ export default function About() {
 
         {/* Team Members on top of banner */}
         <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white text-center mb-6 sm:mb-8 md:mb-8 md:mt-3">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white text-center mb-6 sm:mb-8 md:mb-8 mt-16 sm:mt-0 md:mt-3">
             Thành viên
           </h2>
 
           {/* Two rows: Row 1 = 6-5-4, Row 2 = 1-2-3 */}
-          <div className="space-y-6 lg:space-y-8">
+          <div className="space-y-5 md:space-y-6 lg:space-y-8">
             {/* Row 1: 6-5-4 */}
-            <div className="flex justify-center gap-6 lg:gap-8 flex-wrap">
+            <div className="flex flex-col items-center gap-3 md:gap-4 lg:gap-5 md:flex-row md:justify-center md:flex-wrap">
               {/* Team Member Card 6 */}
-              <div
-                className="shine-effect bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 rounded-lg shadow-lg transition-transform hover:-translate-y-2 group flex-1 max-w-[250px]"
-                style={{ height: "450px" }}
-              >
-                <div
-                  className="relative overflow-hidden p-4"
-                  style={{ height: "350px" }}
-                >
+              <div className="shine-effect bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 rounded-lg shadow-lg transition-transform hover:-translate-y-2 group w-full max-w-[240px] sm:max-w-[260px] md:w-[250px] lg:w-[260px] xl:w-[280px] mx-auto md:mx-0 h-[400px] md:h-[440px] lg:h-[480px]">
+                <div className="relative overflow-hidden p-3 md:p-4 h-[290px] md:h-[320px] lg:h-[350px]">
                   <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-[2500ms] animate-shine-diagonal"></div>
                   <div className="relative h-full w-full rounded-lg overflow-hidden border-4 border-white/20 shadow-inner">
                     <Image
@@ -54,14 +48,8 @@ export default function About() {
               </div>
 
               {/* Team Member Card 5 */}
-              <div
-                className="shine-effect bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 rounded-lg shadow-lg transition-transform hover:-translate-y-2 group flex-1 max-w-[250px]"
-                style={{ height: "450px" }}
-              >
-                <div
-                  className="relative overflow-hidden p-4"
-                  style={{ height: "350px" }}
-                >
+              <div className="shine-effect bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 rounded-lg shadow-lg transition-transform hover:-translate-y-2 group w-full max-w-[240px] sm:max-w-[260px] md:w-[250px] lg:w-[260px] xl:w-[280px] mx-auto md:mx-0 h-[400px] md:h-[440px] lg:h-[480px]">
+                <div className="relative overflow-hidden p-3 md:p-4 h-[290px] md:h-[320px] lg:h-[350px]">
                   <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-[2500ms] animate-shine-diagonal"></div>
                   <div className="relative h-full w-full rounded-lg overflow-hidden border-4 border-white/20 shadow-inner">
                     <Image
@@ -80,14 +68,8 @@ export default function About() {
               </div>
 
               {/* Team Member Card 4 */}
-              <div
-                className="shine-effect bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 rounded-lg shadow-lg transition-transform hover:-translate-y-2 group flex-1 max-w-[250px]"
-                style={{ height: "450px" }}
-              >
-                <div
-                  className="relative overflow-hidden p-4"
-                  style={{ height: "350px" }}
-                >
+              <div className="shine-effect bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 rounded-lg shadow-lg transition-transform hover:-translate-y-2 group w-full max-w-[240px] sm:max-w-[260px] md:w-[250px] lg:w-[260px] xl:w-[280px] mx-auto md:mx-0 h-[400px] md:h-[440px] lg:h-[480px]">
+                <div className="relative overflow-hidden p-3 md:p-4 h-[290px] md:h-[320px] lg:h-[350px]">
                   <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-[2500ms] animate-shine-diagonal"></div>
                   <div className="relative h-full w-full rounded-lg overflow-hidden border-4 border-white/20 shadow-inner">
                     <Image
@@ -107,16 +89,10 @@ export default function About() {
             </div>
 
             {/* Row 2: 1-2-3 */}
-            <div className="flex justify-center gap-6 lg:gap-8 flex-wrap">
+            <div className="flex flex-col items-center gap-3 md:gap-4 lg:gap-5 md:flex-row md:justify-center md:flex-wrap">
               {/* Team Member Card 1 */}
-              <div
-                className="shine-effect bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600 rounded-lg shadow-lg transition-transform hover:-translate-y-2 group flex-1 max-w-[250px]"
-                style={{ height: "450px" }}
-              >
-                <div
-                  className="relative overflow-hidden p-4"
-                  style={{ height: "350px" }}
-                >
+              <div className="shine-effect bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600 rounded-lg shadow-lg transition-transform hover:-translate-y-2 group w-full max-w-[240px] sm:max-w-[260px] md:w-[250px] lg:w-[260px] xl:w-[280px] mx-auto md:mx-0 h-[400px] md:h-[440px] lg:h-[480px]">
+                <div className="relative overflow-hidden p-3 md:p-4 h-[290px] md:h-[320px] lg:h-[350px]">
                   <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-[2500ms] animate-shine-diagonal"></div>
                   <div className="relative h-full w-full rounded-lg overflow-hidden border-4 border-white/20 shadow-inner">
                     <Image
@@ -135,14 +111,8 @@ export default function About() {
               </div>
 
               {/* Team Member Card 2 */}
-              <div
-                className="shine-effect bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600 rounded-lg shadow-lg transition-transform hover:-translate-y-2 group flex-1 max-w-[250px]"
-                style={{ height: "450px" }}
-              >
-                <div
-                  className="relative overflow-hidden p-4"
-                  style={{ height: "350px" }}
-                >
+              <div className="shine-effect bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600 rounded-lg shadow-lg transition-transform hover:-translate-y-2 group w-full max-w-[240px] sm:max-w-[260px] md:w-[250px] lg:w-[260px] xl:w-[280px] mx-auto md:mx-0 h-[400px] md:h-[440px] lg:h-[480px]">
+                <div className="relative overflow-hidden p-3 md:p-4 h-[290px] md:h-[320px] lg:h-[350px]">
                   <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-[2500ms] animate-shine-diagonal"></div>
                   <div className="relative h-full w-full rounded-lg overflow-hidden border-4 border-white/20 shadow-inner">
                     <Image
@@ -161,14 +131,8 @@ export default function About() {
               </div>
 
               {/* Team Member Card 3 */}
-              <div
-                className="shine-effect bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600 rounded-lg shadow-lg transition-transform hover:-translate-y-2 group flex-1 max-w-[250px]"
-                style={{ height: "450px" }}
-              >
-                <div
-                  className="relative overflow-hidden p-4"
-                  style={{ height: "350px" }}
-                >
+              <div className="shine-effect bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600 rounded-lg shadow-lg transition-transform hover:-translate-y-2 group w-full max-w-[240px] sm:max-w-[260px] md:w-[250px] lg:w-[260px] xl:w-[280px] mx-auto md:mx-0 h-[400px] md:h-[440px] lg:h-[480px]">
+                <div className="relative overflow-hidden p-3 md:p-4 h-[290px] md:h-[320px] lg:h-[350px]">
                   <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-[2500ms] animate-shine-diagonal"></div>
                   <div className="relative h-full w-full rounded-lg overflow-hidden border-4 border-white/20 shadow-inner">
                     <Image
