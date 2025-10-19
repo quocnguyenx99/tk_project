@@ -123,8 +123,8 @@ export default function DaoTaoVaPhatTrien() {
                     </tr>
                   </thead>
                   <tbody>
-                    {/* Objective 1 */}
-                    <tr className="bg-green-700 text-white font-semibold">
+                    {/* Objective 1: Security */}
+                    <tr className="bg-cyan-400 text-black font-semibold">
                       <td
                         className="border border-gray-400 px-3 py-2"
                         colSpan={8}
@@ -132,6 +132,8 @@ export default function DaoTaoVaPhatTrien() {
                         Objective 1: Security
                       </td>
                     </tr>
+
+                    {/* KR 1: Enhance Security */}
                     <tr className="bg-yellow-200 font-semibold">
                       <td
                         className="border border-gray-400 px-3 py-2"
@@ -140,18 +142,19 @@ export default function DaoTaoVaPhatTrien() {
                         KR 1: Enhance Security
                       </td>
                     </tr>
+
                     {/* Row 1 */}
                     <tr>
                       <td className="border border-gray-400 px-3 py-2 align-top">
                         Giảm thiểu rủi ro do vận hành nội bộ
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        • Sử dụng Vault để cấp phát secret key cho operation
-                        traffic
-                        <br />
-                        • Managing Secret Keys cho các services của TK
-                        <br />• Lên kế hoạch migrate hệ thống hiện tại sang flow
-                        mới
+                        Sử dụng Vault để cấp phát secret key; Sử dụng Vault để
+                        quản lý và cấp phát SSH key cho cấp server/node (SRE);
+                        Thiết lập dây chuyền quản lý ssh key trong hệ thống;
+                        Phát hiện command lines nguy hiểm hệ thống; Phát hiện và
+                        cảnh báo kịp thời các command lines nguy hiểm sử dụng
+                        thiếp; ngăn chặn rủi ro trước khi gây tổn thương.
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
                         Process liên quan tới security tuân thủ 100%
@@ -159,21 +162,9 @@ export default function DaoTaoVaPhatTrien() {
                         100% apply Vault để quản lý SSH Key
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-left align-top">
-                        <a
-                          className="text-blue-600 underline"
-                          href="#"
-                          rel="noreferrer"
-                        >
-                          PLAT-325
-                        </a>{" "}
-                        •{" "}
-                        <a
-                          className="text-blue-600 underline"
-                          href="#"
-                          rel="noreferrer"
-                        >
-                          PLAT-343
-                        </a>
+                        PLAT-325
+                        <br />
+                        PLAT-343
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top">
                         MEDIUM
@@ -186,11 +177,9 @@ export default function DaoTaoVaPhatTrien() {
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
                         Không có incident liên quan tới Security trong hệ thống
-                        <br />
-                        Quản lý và detect được các problems liên quan tới
-                        security
                       </td>
                     </tr>
+
                     {/* Row 2 */}
                     <tr>
                       <td className="border border-gray-400 px-3 py-2 align-top">
@@ -198,19 +187,13 @@ export default function DaoTaoVaPhatTrien() {
                         Security phổ biến
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        • Xác định các lỗ hổng phổ biến, nghiên cứu báo cáo/tài
-                        liệu gần đây
-                        <br />• Thiết lập quy trình dự phòng (playbook)
+                        Xác định các lỗ hổng phổ biến; Nghiên cứu các báo cáo và
+                        tài liệu gần đây; Thiết lập quy trình dự phòng
+                        (playbook)
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-left align-top">
-                        <a
-                          className="text-blue-600 underline"
-                          href="#"
-                          rel="noreferrer"
-                        >
-                          SRE-6683
-                        </a>
+                        SRE-6683
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top">
@@ -225,8 +208,8 @@ export default function DaoTaoVaPhatTrien() {
                       </td>
                     </tr>
 
-                    {/* Objective 2 */}
-                    <tr className="bg-green-700 text-white font-semibold">
+                    {/* Objective 2: Stability & Reliability */}
+                    <tr className="bg-cyan-400 text-black font-semibold">
                       <td
                         className="border border-gray-400 px-3 py-2"
                         colSpan={8}
@@ -234,6 +217,8 @@ export default function DaoTaoVaPhatTrien() {
                         Objective 2: Stability & Reliability
                       </td>
                     </tr>
+
+                    {/* KR 1: Safety upgrade/deployment with K8s */}
                     <tr className="bg-yellow-200 font-semibold">
                       <td
                         className="border border-gray-400 px-3 py-2"
@@ -242,36 +227,40 @@ export default function DaoTaoVaPhatTrien() {
                         KR 1: Safety upgrade/deployment with K8s
                       </td>
                     </tr>
+
+                    {/* Multi Clusters for K8s */}
+                    <tr className="bg-purple-200 ">
+                      <td
+                        className="border border-gray-400 px-3 py-2"
+                        colSpan={8}
+                      >
+                        Multi Clusters for K8s
+                      </td>
+                    </tr>
+
                     {/* Row 3 */}
                     <tr>
                       <td className="border border-gray-400 px-3 py-2 align-top">
                         Multi Clusters for K8s (SRE)
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        • Triển khai cụm Stateless mới trên môi trường Prod
-                        <br />• Hoàn tất tách domain/services khỏi Stateful
+                        Triển khai cụm Stateless mới trên môi trường Prod
+                        <br />
+                        Hoàn tất tách domain/services khỏi Stateful
+                        <br />
+                        Tách biệt các services trong cụm Stateless mới của Prod
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
                         0% downtime trong quá trình nâng cấp
                         <br />
                         Đảm bảo hoạt động 99.99%
+                        <br />
+                        Đảm bảo cụm clusters hoạt động 99.99%
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-left align-top">
-                        <a
-                          className="text-blue-600 underline"
-                          href="#"
-                          rel="noreferrer"
-                        >
-                          PLAT-323
-                        </a>{" "}
-                        •{" "}
-                        <a
-                          className="text-blue-600 underline"
-                          href="#"
-                          rel="noreferrer"
-                        >
-                          PLAT-359
-                        </a>
+                        PLAT-323
+                        <br />
+                        PLAT-359
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top">
                         HIGH
@@ -283,38 +272,49 @@ export default function DaoTaoVaPhatTrien() {
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Triển khai thành công trên Prod, hệ thống ổn định, app
-                        stateless deploy trên multi clusters
+                        Triển khai thành công cụm Stateless trên Prod, hệ thống
+                        ổn định, các stateless deploy trên multi clusters
                       </td>
                     </tr>
+
+                    {/* Upgrade K8s */}
+                    <tr className="bg-purple-200 ">
+                      <td
+                        className="border border-gray-400 px-3 py-2"
+                        colSpan={8}
+                      >
+                        Upgrade K8s
+                      </td>
+                    </tr>
+
                     {/* Row 4 */}
                     <tr>
                       <td className="border border-gray-400 px-3 py-2 align-top">
                         Upgrade K8s 1.29
+                        <br />
+                        Upgrade toàn bộ các cluster-env của TDP & SRE (Prod +
+                        Non-Prod)
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        • Nâng cấp K8s từ 1.28 lên 1.29 cho các env
-                        <br />• TDP (Compute, Service, Storage)
+                        Nâng cấp K8s từ phiên bản 1.28 lên 1.29 cho các env
+                        <br />
+                        Upgrade các phiên bản K8s 1.29 cho các cluster-env của
+                        TDP và SRE (Prod + Non-Prod)
+                        <br />
+                        TDP (Compute, Service, Storage)
+                        <br />
+                        Chuẩn hóa quy trình Internal Tools và nâng cấp K8s lên
+                        1.29
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
                         100% các clusters được nâng cấp lên 1.29
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-left align-top">
-                        <a
-                          className="text-blue-600 underline"
-                          href="#"
-                          rel="noreferrer"
-                        >
-                          PLAT-360
-                        </a>{" "}
-                        •{" "}
-                        <a
-                          className="text-blue-600 underline"
-                          href="#"
-                          rel="noreferrer"
-                        >
-                          PLAT-339
-                        </a>
+                        PLAT-360
+                        <br />
+                        PLAT-339
+                        <br />
+                        PLAT-347
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top">
                         HIGH
@@ -328,8 +328,259 @@ export default function DaoTaoVaPhatTrien() {
                         Mỗi quý nâng cấp K8s lên 1 version cho các môi trường
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Upgrade toàn bộ các cụm lên 1.29 • SRE-Prod
+                        Mỗi quý sẽ có action nâng cấp K8s lên 1 version cho các
+                        môi trường • Upgrade toàn bộ các cụm lên 1.29 • SRE-Prod
+                        • SRE-Internal-Tools
                       </td>
+                    </tr>
+
+                    {/* KR2: Make sure the Observ stream operates stably */}
+                    <tr className="bg-yellow-200 font-semibold">
+                      <td
+                        className="border border-gray-400 px-3 py-2"
+                        colSpan={8}
+                      >
+                        KR2: Make sure the Observ stream operates stably
+                      </td>
+                    </tr>
+
+                    {/* Row 5 */}
+                    <tr>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Đảm bảo không mất logs/metrics
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Đảm bảo tính ổn định observability hoạt động đạt hiệu
+                        <br />
+                        Hạn chế việc loại bỏ log/metrics
+                        <br />
+                        Có view theo dõi của việc hệ thống observability
+                        <br />
+                        Đánh giá hiệu quả của việc backup schema lại
+                        <br />
+                        Chuẩn hóa Dashboard/monitoring cho các component
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-left align-top">
+                        PLAT-367
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Đảm bảo tăng observ để thúc hiện các yêu cầu đạo có thể
+                        hỗ trợ luận lý SRE-Roadmap 2024's Note
+                      </td>
+                    </tr>
+
+                    {/* KR3: Reduce risks related to Stateful */}
+                    <tr className="bg-yellow-200 font-semibold">
+                      <td
+                        className="border border-gray-400 px-3 py-2"
+                        colSpan={8}
+                      >
+                        KR3: Reduce risks related to Stateful
+                      </td>
+                    </tr>
+
+                    {/* Database & Storage */}
+                    <tr className="bg-purple-200">
+                      <td
+                        className="border border-gray-400 px-3 py-2"
+                        colSpan={8}
+                      >
+                        Database & Storage
+                      </td>
+                    </tr>
+
+                    {/* Row 6 */}
+                    <tr>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Apply standard backup flow for Stateful components
+                        (MongoDB, Redis, SRE)
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Đưng một tool/pattern backup chung cho toàn bộ hệ
+                        thống/migrated vào backup DB hiện tại sẽ sẵn pattern
+                        chung; Visualizable được các action backup chung; Check
+                        được trạng thái các job; Apply backup strategy dùng 3rd
+                        party được; Verify được tính chính của việc restore;
+                        Apply recovery cho các thành phần Stateful MongoDB,
+                        Redis
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Visualizable được các action backup chung, check được
+                        trạng thái các job; Apply thành công backup cho Stateful
+                        component; Verify được data có chính có được viết thành
+                        công hay khi backup
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-left align-top">
+                        PLAT-372
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
+                        HIGH
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Đây là vấn đề ưu tiên flow backup chung; Apply thành
+                        công tool; Thành công khi restore cho tất cả backup cho
+                        các thành phần Stateful MongoDB, Redis Apply lại thành
+                        công dao to visualizable các thành phần
+                      </td>
+                    </tr>
+
+                    {/* Row 7 */}
+                    <tr>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Upgrade PostgreSQL from 13 → 15
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-left align-top">
+                        PLAT-368
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
+                        MEDIUM
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                    </tr>
+
+                    {/* Ceph Storage */}
+                    <tr className="bg-purple-200">
+                      <td
+                        className="border border-gray-400 px-3 py-2"
+                        colSpan={8}
+                      >
+                        Ceph Storage
+                      </td>
+                    </tr>
+
+                    {/* Row 8 */}
+                    <tr>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Giảm thiểu các rủi ro liên quan tới Cụm TDP's Ceph
+                        <br />
+                        Re-design lại các pool của ceph üz
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Review lại toàn bộ các vấn đề liên quan tới Ceph
+                        <br />
+                        Re-design lại các pool của ceph üz
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-left align-top">
+                        PLAT-361
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
+                        MEDIUM
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Review, giúp cải thiện performance của Ceph
+                      </td>
+                    </tr>
+
+                    {/* Deployment & CI/CD */}
+                    <tr className="bg-purple-200">
+                      <td
+                        className="border border-gray-400 px-3 py-2"
+                        colSpan={8}
+                      >
+                        Deployment & CI/CD
+                      </td>
+                    </tr>
+
+                    {/* Row 9 */}
+                    <tr>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Xây dựng DR cho hệ thống Registry
+                        <br />
+                        Build Harbor backup system in Serving cluster
+                        <br />
+                        Remove stale (OCP) to save money
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-left align-top">
+                        PLAT-315
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                    </tr>
+
+                    {/* KR4: Reduce risks related to Physical */}
+                    <tr className="bg-yellow-200 font-semibold">
+                      <td
+                        className="border border-gray-400 px-3 py-2"
+                        colSpan={8}
+                      >
+                        KR4: Reduce risks related to Physical
+                      </td>
+                    </tr>
+
+                    {/* Row 10 */}
+                    <tr>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Quy hoạch lại resources của hạ tầng TK & Giảm thiểu rủi
+                        ro liên quan đến phần cứng
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Đánh giá lại nguyên hiện có; Phân tích toàn diện cấu
+                        hình thiết bị; Đối với các thiết bị cũ có thể có tác
+                        hại; Hỗ trợ sử dụng tài nguyên theo hiệu quả; và nâng
+                        cao khả năng
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Đánh giá: 100% các cluster hiện tại không gây ra tình
+                        trạng thiếu kha thiếu resources
+                        <br />
+                        Đảm bảo sử dụng hiệu 80% resources có sẵn
+                        <br />
+                        Đảm bảo sử dụng tài nguyên hiệu quả 90% resources có sử
+                        của toàn hệ thống
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-left align-top">
+                        PLAT-343
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                    </tr>
+
+                    {/* Row 11 */}
+                    <tr>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Đảm bảo không có ảnh hưởng khi onboard 1 khách hàng mới
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Đảm bảo hệ thống đơn giản, tăng sự tin cậy của khách
+                        hàng
+                        <br />
+                        Tối ưu hiệu suất hệ thống
+                        <br />
+                        Tiết kiệm chi phí vận hành
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Không tăng số lượng incident
+                        <br />
+                        Thời gian phản hồi và xử lý &lt; 5 phút
+                        <br />
+                        Tối ưu các vòng deploy/rollback
+                        <br />
+                        Mức sử dụng tài nguyên khi onboard khách hàng &lt; 50%
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-left align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
                     </tr>
                   </tbody>
                 </table>
@@ -337,6 +588,7 @@ export default function DaoTaoVaPhatTrien() {
             </div>
           </div>
 
+          {/* Bảng: OKR cấp cá nhân */}
           <div className="text-center mb-4 sm:mb-6">
             <h2 className="text-base sm:text-lg md:text-xl font-semibold text-black">
               Bảng 2: OKR cấp cá nhân
@@ -347,7 +599,7 @@ export default function DaoTaoVaPhatTrien() {
             <div className="overflow-x-auto xl:overflow-visible">
               <table className="w-full border-collapse border border-gray-400 min-w-[1200px] xl:min-w-0">
                 <thead>
-                  <tr className="bg-blue-900 ">
+                  <tr className="bg-blue-900">
                     <th className="border border-gray-400 px-3 py-2 text-center font-semibold text-white">
                       OKR
                     </th>
@@ -389,7 +641,7 @@ export default function DaoTaoVaPhatTrien() {
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      1,5
+                      1.5
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
@@ -406,7 +658,7 @@ export default function DaoTaoVaPhatTrien() {
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      1,5
+                      1.5
                     </td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
@@ -421,19 +673,13 @@ export default function DaoTaoVaPhatTrien() {
                       [Security] Automated Detection of Dangerous Command Lines
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      <a
-                        className="text-blue-600 underline"
-                        href="#"
-                        rel="noreferrer"
-                      >
-                        PLAT-343
-                      </a>
+                      PLAT-343
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết
+                      Cam kết ▼
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      0,5
+                      0.5
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       0%
@@ -452,19 +698,13 @@ export default function DaoTaoVaPhatTrien() {
                       [Security] Managing Secret Keys in TK System
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      <a
-                        className="text-blue-600 underline"
-                        href="#"
-                        rel="noreferrer"
-                      >
-                        PLAT-325
-                      </a>
+                      PLAT-325
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết
+                      Cam kết ▼
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      0,7
+                      0.7
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       0%
@@ -484,19 +724,13 @@ export default function DaoTaoVaPhatTrien() {
                       phổ biến
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      <a
-                        className="text-blue-600 underline"
-                        href="#"
-                        rel="noreferrer"
-                      >
-                        SRE-6683
-                      </a>
+                      SRE-6683
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      Mở rộng
+                      Mở rộng ▼
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      0,3
+                      0.3
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       0%
@@ -514,12 +748,12 @@ export default function DaoTaoVaPhatTrien() {
                       O2
                     </td>
                     <td className="border border-gray-400 px-3 py-2 font-semibold">
-                      Stability & Reliability (SLA 99.99%)
+                      Stability & Reliability
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      6,0
+                      8.5
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
@@ -534,11 +768,9 @@ export default function DaoTaoVaPhatTrien() {
                       Safety upgrade/deployment with K8s
                     </td>
                     <td className="border border-gray-400 px-3 py-2"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      Mở rộng
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      3,0
+                      3.0
                     </td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
@@ -550,22 +782,16 @@ export default function DaoTaoVaPhatTrien() {
                       A1
                     </td>
                     <td className="border border-gray-400 px-3 py-2">
-                      Multi clusters for K8s - Separate Stateful, Stateless
+                      Multi clusters for K8s - Separate Stateful, stateless
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      <a
-                        className="text-blue-600 underline"
-                        href="#"
-                        rel="noreferrer"
-                      >
-                        PLAT-359
-                      </a>
+                      PLAT-359
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      Mở rộng
+                      Mở rộng ▼
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      0,5
+                      0.5
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       0%
@@ -584,22 +810,16 @@ export default function DaoTaoVaPhatTrien() {
                       Dùng cụm Stateless mới trên môi trường Prod
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      <a
-                        className="text-blue-600 underline"
-                        href="#"
-                        rel="noreferrer"
-                      >
-                        PLAT-323
-                      </a>
+                      PLAT-323
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết
+                      Cam kết ▼
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      0,5
+                      0.5
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      0%
+                      50%
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       100%
@@ -615,19 +835,13 @@ export default function DaoTaoVaPhatTrien() {
                       Upgrade K8s from 1.28 to 1.29
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      <a
-                        className="text-blue-600 underline"
-                        href="#"
-                        rel="noreferrer"
-                      >
-                        PLAT-360
-                      </a>
+                      PLAT-360
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết
+                      Cam kết ▼
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      1,0
+                      1.0
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       0%
@@ -646,22 +860,16 @@ export default function DaoTaoVaPhatTrien() {
                       Upgrade K8s TK-prod-cep cluster to v1.28
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      <a
-                        className="text-blue-600 underline"
-                        href="#"
-                        rel="noreferrer"
-                      >
-                        PLAT-347
-                      </a>
+                      PLAT-339
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết
+                      Cam kết ▼
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      0,7
+                      0.7
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      0%
+                      50%
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       100%
@@ -674,22 +882,16 @@ export default function DaoTaoVaPhatTrien() {
                       A5
                     </td>
                     <td className="border border-gray-400 px-3 py-2">
-                      Chuẩn hóa quy trình Internal Tools & Upgrade K8s to 1.29
+                      Chuẩn hóa cum Internal Tools & Upgrade K8s to 1.28
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      <a
-                        className="text-blue-600 underline"
-                        href="#"
-                        rel="noreferrer"
-                      >
-                        PLAT-366
-                      </a>
+                      PLAT-347
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết
+                      Cam kết ▼
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      0,3
+                      0.3
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       0%
@@ -712,7 +914,7 @@ export default function DaoTaoVaPhatTrien() {
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      1,0
+                      1.0
                     </td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
@@ -727,19 +929,13 @@ export default function DaoTaoVaPhatTrien() {
                       Đảm bảo không mất logs/metrics
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      <a
-                        className="text-blue-600 underline"
-                        href="#"
-                        rel="noreferrer"
-                      >
-                        PLAT-367
-                      </a>
+                      PLAT-347
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết
+                      Cam kết ▼
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      1,0
+                      1.0
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       0%
@@ -762,7 +958,7 @@ export default function DaoTaoVaPhatTrien() {
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      1,5
+                      1.5
                     </td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
@@ -777,25 +973,271 @@ export default function DaoTaoVaPhatTrien() {
                       Apply standard backup flow for Stateful components
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      <a
-                        className="text-blue-600 underline"
-                        href="#"
-                        rel="noreferrer"
-                      >
-                        PLAT-372
-                      </a>
+                      PLAT-372
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết
+                      Cam kết ▼
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      0,7
+                      0.7
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       0%
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       80%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      A2
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2">
+                      Upgrade PostgreSQL from 13 → 15
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      PLAT-368
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      Mở rộng ▼
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0.4
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      100%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                  </tr>
+
+                  {/* A3 - Giảm thiểu sử dụng */}
+                  <tr>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      A3
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2">
+                      Giảm thiểu các rủi ro liên quan tới Cụm TDP's Ceph
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      PLAT-361
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      Mở rộng ▼
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0.2
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      70%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                  </tr>
+
+                  {/* A4 - Key toàn OR cho hệ thống Registry */}
+                  <tr>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      A4
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2">
+                      Xây dựng DR cho hệ thống Registry
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      PLAT-315
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      Cam kết ▼
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0.2
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      50%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      100%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                  </tr>
+
+                  {/* KR5 */}
+                  <tr className="bg-yellow-100">
+                    <td className="border border-gray-400 px-3 py-2 text-center font-semibold">
+                      KR5
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 font-medium">
+                      Incident
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0.2
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2"></td>
+                    <td className="border border-gray-400 px-3 py-2"></td>
+                    <td className="border border-gray-400 px-3 py-2"></td>
+                    <td className="border border-gray-400 px-3 py-2"></td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      A1
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2">
+                      Reduce incident trong quý/năm
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      Cam kết ▼
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0.2
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      100%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                  </tr>
+
+                  {/* O3 */}
+                  <tr className="bg-blue-200">
+                    <td className="border border-gray-400 px-3 py-2 text-center font-bold">
+                      O3
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 font-semibold">
+                      Simplicity
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      1.0
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      A1
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2">
+                      Chuẩn hóa/Quy hoạch lại các repo phía TDP/SRE
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      Mở rộng ▼
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      1.0
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      25%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      100%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                  </tr>
+
+                  {/* O4 */}
+                  <tr className="bg-blue-200">
+                    <td className="border border-gray-400 px-3 py-2 text-center font-bold">
+                      O4
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 font-semibold">
+                      Extend phala
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      1.5
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      A1
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2">
+                      Nghiên cứu, lên phương án dựng/upgrade cụm Kafka hiện tại
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      Mở rộng ▼
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0.5
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      100%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      A2
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2">
+                      Nghiên cứu và lên phương án phân bổ tài nguyên/chi phí hạ
+                      tầng theo tenant
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      Mở rộng ▼
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0.5
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      100%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      A3
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2">
+                      Tiếp quản lại hạ tầng Blockchain
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      Mở rộng ▼
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0.5
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      0%
+                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      100%
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
