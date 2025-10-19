@@ -166,9 +166,7 @@ export default function DaoTaoVaPhatTrien() {
                         <br />
                         PLAT-343
                       </td>
-                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
-                        MEDIUM
-                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top">
                         <span className="inline-block bg-amber-600 text-white text-xs px-2 py-1 rounded-full font-semibold">
                           MEDIUM
@@ -262,9 +260,7 @@ export default function DaoTaoVaPhatTrien() {
                         <br />
                         PLAT-359
                       </td>
-                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
-                        HIGH
-                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top">
                         <span className="inline-block bg-rose-600 text-white text-xs px-2 py-1 rounded-full font-semibold">
                           HIGH
@@ -316,9 +312,7 @@ export default function DaoTaoVaPhatTrien() {
                         <br />
                         PLAT-347
                       </td>
-                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
-                        HIGH
-                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top">
                         <span className="inline-block bg-rose-600 text-white text-xs px-2 py-1 rounded-full font-semibold">
                           HIGH
@@ -336,10 +330,7 @@ export default function DaoTaoVaPhatTrien() {
 
                     {/* KR2: Make sure the Observ stream operates stably */}
                     <tr className="bg-yellow-200 font-semibold">
-                      <td
-                        className="border border-gray-400 px-3 py-2"
-                        colSpan={8}
-                      >
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         KR2: Make sure the Observ stream operates stably
                       </td>
                     </tr>
@@ -375,20 +366,14 @@ export default function DaoTaoVaPhatTrien() {
 
                     {/* KR3: Reduce risks related to Stateful */}
                     <tr className="bg-yellow-200 font-semibold">
-                      <td
-                        className="border border-gray-400 px-3 py-2"
-                        colSpan={8}
-                      >
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         KR3: Reduce risks related to Stateful
                       </td>
                     </tr>
 
                     {/* Database & Storage */}
                     <tr className="bg-purple-200">
-                      <td
-                        className="border border-gray-400 px-3 py-2"
-                        colSpan={8}
-                      >
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         Database & Storage
                       </td>
                     </tr>
@@ -417,9 +402,7 @@ export default function DaoTaoVaPhatTrien() {
                       <td className="border border-gray-400 px-3 py-2 text-left align-top">
                         PLAT-372
                       </td>
-                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
-                        HIGH
-                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
@@ -440,9 +423,7 @@ export default function DaoTaoVaPhatTrien() {
                       <td className="border border-gray-400 px-3 py-2 text-left align-top">
                         PLAT-368
                       </td>
-                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
-                        MEDIUM
-                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 align-top"></td>
@@ -450,10 +431,7 @@ export default function DaoTaoVaPhatTrien() {
 
                     {/* Ceph Storage */}
                     <tr className="bg-purple-200">
-                      <td
-                        className="border border-gray-400 px-3 py-2"
-                        colSpan={8}
-                      >
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         Ceph Storage
                       </td>
                     </tr>
@@ -474,9 +452,7 @@ export default function DaoTaoVaPhatTrien() {
                       <td className="border border-gray-400 px-3 py-2 text-left align-top">
                         PLAT-361
                       </td>
-                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
-                        MEDIUM
-                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
@@ -486,10 +462,7 @@ export default function DaoTaoVaPhatTrien() {
 
                     {/* Deployment & CI/CD */}
                     <tr className="bg-purple-200">
-                      <td
-                        className="border border-gray-400 px-3 py-2"
-                        colSpan={8}
-                      >
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         Deployment & CI/CD
                       </td>
                     </tr>
@@ -516,10 +489,7 @@ export default function DaoTaoVaPhatTrien() {
 
                     {/* KR4: Reduce risks related to Physical */}
                     <tr className="bg-yellow-200 font-semibold">
-                      <td
-                        className="border border-gray-400 px-3 py-2"
-                        colSpan={8}
-                      >
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         KR4: Reduce risks related to Physical
                       </td>
                     </tr>
@@ -748,383 +718,298 @@ export default function DaoTaoVaPhatTrien() {
                       O2
                     </td>
                     <td className="border border-gray-400 px-3 py-2 font-semibold">
-                      Stability & Reliability
+                      Stability & Reliability (SLA 99.99%)
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
-                      8.5
+                      6.0
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                   </tr>
+
+                  {/* KR1 - Safety upgrade/deployment with K8s */}
                   <tr className="bg-yellow-100">
-                    <td className="border border-gray-400 px-3 py-2 text-center font-semibold">
-                      KR1
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center font-semibold">KR1</td>
                     <td className="border border-gray-400 px-3 py-2 font-medium">
                       Safety upgrade/deployment with K8s
                     </td>
                     <td className="border border-gray-400 px-3 py-2"></td>
-                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      3.0
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Mở rộng</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">3.0</td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                   </tr>
+
+                  {/* A1 - Multi clusters */}
                   <tr>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      A1
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">A1</td>
                     <td className="border border-gray-400 px-3 py-2">
                       Multi clusters for K8s - Separate Stateful, stateless
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      PLAT-359
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      Mở rộng ▼
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0.5
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0%
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      50%
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">PLAT-359</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Mở rộng ▼</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0.5</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">50%</td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                   </tr>
+
+                  {/* A2 - Dùng cụm Stateless */}
                   <tr>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      A2
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">A2</td>
                     <td className="border border-gray-400 px-3 py-2">
                       Dùng cụm Stateless mới trên môi trường Prod
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      PLAT-323
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết ▼
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0.5
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      50%
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      100%
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">PLAT-323</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Cam kết ▼</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0.5</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">50%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">100%</td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                   </tr>
+
+                  {/* A3 - Upgrade K8s */}
                   <tr>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      A3
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">A3</td>
                     <td className="border border-gray-400 px-3 py-2">
                       Upgrade K8s from 1.28 to 1.29
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      PLAT-360
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết ▼
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      1.0
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0%
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      100%
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">PLAT-360</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Cam kết ▼</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">1.0</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">100%</td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                   </tr>
+
+                  {/* A4 - Upgrade K8s TK-prod-cep */}
                   <tr>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      A4
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">A4</td>
                     <td className="border border-gray-400 px-3 py-2">
                       Upgrade K8s TK-prod-cep cluster to v1.28
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      PLAT-339
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết ▼
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0.7
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      50%
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      100%
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">PLAT-339</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Cam kết ▼</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0.7</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">30%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">100%</td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                   </tr>
+
+                  {/* A5 - Chuẩn hóa cum Internal Tools */}
                   <tr>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      A5
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">A5</td>
                     <td className="border border-gray-400 px-3 py-2">
-                      Chuẩn hóa cum Internal Tools & Upgrade K8s to 1.28
+                      Chuẩn hóa cum Internal Tools & Upgrade K8s to 1.29
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      PLAT-347
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết ▼
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0.3
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0%
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      100%
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">PLAT-347</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Cam kết ▼</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0.3</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">100%</td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                   </tr>
 
                   {/* KR2 */}
                   <tr className="bg-yellow-100">
-                    <td className="border border-gray-400 px-3 py-2 text-center font-semibold">
-                      KR2
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center font-semibold">KR2</td>
                     <td className="border border-gray-400 px-3 py-2 font-medium">
                       Make sure the Observ stream operates stably
                     </td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      1.0
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">1.0</td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                   </tr>
+
+                  {/* A1 - Đảm bảo không mất */}
                   <tr>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      A1
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">A1</td>
                     <td className="border border-gray-400 px-3 py-2">
                       Đảm bảo không mất logs/metrics
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      PLAT-347
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết ▼
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      1.0
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0%
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      100%
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">PLAT-347</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Cam kết ▼</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">1.0</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">100%</td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                   </tr>
 
                   {/* KR3 */}
                   <tr className="bg-yellow-100">
-                    <td className="border border-gray-400 px-3 py-2 text-center font-semibold">
-                      KR3
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center font-semibold">KR3</td>
                     <td className="border border-gray-400 px-3 py-2 font-medium">
                       Reduce risks related to Stateful
                     </td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      1.5
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">1.5</td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                   </tr>
+
+                  {/* A1 - Apply standard backup */}
                   <tr>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      A1
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">A1</td>
                     <td className="border border-gray-400 px-3 py-2">
                       Apply standard backup flow for Stateful components
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      PLAT-372
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết ▼
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0.7
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0%
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      80%
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
-                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      A2
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2">
-                      Upgrade PostgreSQL from 13 → 15
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      PLAT-368
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      Mở rộng ▼
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0.4
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0%
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      100%
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">PLAT-372</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Cam kết ▼</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0.7</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">80%</td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                   </tr>
 
-                  {/* A3 - Giảm thiểu sử dụng */}
+                  {/* A2 - Upgrade PostgreSQL */}
                   <tr>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      A3
+                    <td className="border border-gray-400 px-3 py-2 text-center">A2</td>
+                    <td className="border border-gray-400 px-3 py-2">
+                      Upgrade PostgreSQL from 13 → 15 (mt non-prod)
                     </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">PLAT-368</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Mở rộng ▼</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0.4</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">100%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                  </tr>
+
+                  {/* A3 - Giảm thiểu các rủi ro */}
+                  <tr>
+                    <td className="border border-gray-400 px-3 py-2 text-center">A3</td>
                     <td className="border border-gray-400 px-3 py-2">
                       Giảm thiểu các rủi ro liên quan tới Cụm TDP's Ceph
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      PLAT-361
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      Mở rộng ▼
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0.2
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0%
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      70%
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">PLAT-301</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Mở rộng ▼</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0.2</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">70%</td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                   </tr>
 
-                  {/* A4 - Key toàn OR cho hệ thống Registry */}
+                  {/* A4 - Xây dựng DR cho hệ thống Registry */}
                   <tr>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      A4
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">A4</td>
                     <td className="border border-gray-400 px-3 py-2">
                       Xây dựng DR cho hệ thống Registry
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      PLAT-315
+                    <td className="border border-gray-400 px-3 py-2 text-center">PLAT-319</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Cam kết ▼</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0.2</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">50%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">100%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                  </tr>
+
+                  {/* KR4 */}
+                  <tr className="bg-yellow-100">
+                    <td className="border border-gray-400 px-3 py-2 text-center font-semibold">KR4</td>
+                    <td className="border border-gray-400 px-3 py-2 font-medium">
+                      Reduce risks related to Physical
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết ▼
+                    <td className="border border-gray-400 px-3 py-2"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0.3</td>
+                    <td className="border border-gray-400 px-3 py-2"></td>
+                    <td className="border border-gray-400 px-3 py-2"></td>
+                    <td className="border border-gray-400 px-3 py-2"></td>
+                    <td className="border border-gray-400 px-3 py-2"></td>
+                  </tr>
+
+                  {/* A1 - Quy hoạch lại resources */}
+                  <tr>
+                    <td className="border border-gray-400 px-3 py-2 text-center">A1</td>
+                    <td className="border border-gray-400 px-3 py-2">
+                      Quy hoạch lại resources của hạ tầng TK & Giảm thiểu rủi ro liên quan đến phần cứng
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0.2
+                    <td className="border border-gray-400 px-3 py-2 text-center">PLAT-342</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Cam kết ▼</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0.2</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">55%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">100%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                  </tr>
+
+                  {/* A2 - Đảm bảo không có ảnh hưởng */}
+                  <tr>
+                    <td className="border border-gray-400 px-3 py-2 text-center">A2</td>
+                    <td className="border border-gray-400 px-3 py-2">
+                      Đảm bảo không có ảnh hưởng khi onboard 1 khách hàng mới
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      50%
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      100%
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Cam kết ▼</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0.1</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">100%</td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                   </tr>
 
                   {/* KR5 */}
                   <tr className="bg-yellow-100">
-                    <td className="border border-gray-400 px-3 py-2 text-center font-semibold">
-                      KR5
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center font-semibold">KR5</td>
                     <td className="border border-gray-400 px-3 py-2 font-medium">
                       Incident
                     </td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0.2
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0.2</td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                     <td className="border border-gray-400 px-3 py-2"></td>
                   </tr>
+
+                  {/* A1 - Reduce incident */}
                   <tr>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      A1
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">A1</td>
                     <td className="border border-gray-400 px-3 py-2">
                       Reduce incident trong quý/năm
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      Cam kết ▼
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0.2
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      0%
-                    </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      100%
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">Cam kết ▼</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0.2</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">0%</td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">100%</td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                   </tr>
 
                   {/* O3 */}
                   <tr className="bg-blue-200">
-                    <td className="border border-gray-400 px-3 py-2 text-center font-bold">
-                      O3
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center font-bold">O3</td>
                     <td className="border border-gray-400 px-3 py-2 font-semibold">
                       Simplicity
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      1.0
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">1.0</td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
@@ -1156,17 +1041,13 @@ export default function DaoTaoVaPhatTrien() {
 
                   {/* O4 */}
                   <tr className="bg-blue-200">
-                    <td className="border border-gray-400 px-3 py-2 text-center font-bold">
-                      O4
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center font-bold">O4</td>
                     <td className="border border-gray-400 px-3 py-2 font-semibold">
-                      Extend phala
+                      Extend goals
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
-                    <td className="border border-gray-400 px-3 py-2 text-center">
-                      1.5
-                    </td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">1.5</td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
@@ -1179,7 +1060,9 @@ export default function DaoTaoVaPhatTrien() {
                     <td className="border border-gray-400 px-3 py-2">
                       Nghiên cứu, lên phương án dựng/upgrade cụm Kafka hiện tại
                     </td>
-                    <td className="border border-gray-400 px-3 py-2 text-center"></td>
+                    <td className="border border-gray-400 px-3 py-2 text-center">
+                      Nghiên cứu, lên phương án dựng/upgrade cụm Kafka hiện tại
+                    </td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       Mở rộng ▼
                     </td>
@@ -1195,13 +1078,14 @@ export default function DaoTaoVaPhatTrien() {
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                   </tr>
+
+                  {/* A2 - Nghiên cứu và lên phương án phân bổ tài nguyên */}
                   <tr>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       A2
                     </td>
                     <td className="border border-gray-400 px-3 py-2">
-                      Nghiên cứu và lên phương án phân bổ tài nguyên/chi phí hạ
-                      tầng theo tenant
+                      Nghiên cứu và lên phương án phân bổ tài nguyên/chi phí hạ tầng theo tenant
                     </td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center">
@@ -1219,6 +1103,8 @@ export default function DaoTaoVaPhatTrien() {
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                     <td className="border border-gray-400 px-3 py-2 text-center"></td>
                   </tr>
+
+                  {/* A3 - Tiếp quản lại hạ tầng Blockchain */}
                   <tr>
                     <td className="border border-gray-400 px-3 py-2 text-center">
                       A3
