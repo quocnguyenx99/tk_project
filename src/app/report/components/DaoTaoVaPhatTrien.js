@@ -125,20 +125,14 @@ export default function DaoTaoVaPhatTrien() {
                   <tbody>
                     {/* Objective 1: Security */}
                     <tr className="bg-cyan-400 text-black font-semibold">
-                      <td
-                        className="border border-gray-400 px-3 py-2"
-                        colSpan={8}
-                      >
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         Objective 1: Security
                       </td>
                     </tr>
 
                     {/* KR 1: Enhance Security */}
                     <tr className="bg-yellow-200 font-semibold">
-                      <td
-                        className="border border-gray-400 px-3 py-2"
-                        colSpan={8}
-                      >
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         KR 1: Enhance Security
                       </td>
                     </tr>
@@ -149,21 +143,14 @@ export default function DaoTaoVaPhatTrien() {
                         Giảm thiểu rủi ro do vận hành nội bộ
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Sử dụng Vault để cấp phát secret key; Sử dụng Vault để
-                        quản lý và cấp phát SSH key cho cấp server/node (SRE);
-                        Thiết lập dây chuyền quản lý ssh key trong hệ thống;
-                        Phát hiện command lines nguy hiểm hệ thống; Phát hiện và
-                        cảnh báo kịp thời các command lines nguy hiểm sử dụng
-                        thiếp; ngăn chặn rủi ro trước khi gây tổn thương.
+                        Sử dụng Vault để cấp phát secret key; Sử dụng Vault để quản lý và cấp phát SSH key cho cấp server/node (SRE); Thiết lập dây chuyền quản lý ssh key trong hệ thống; Phát hiện command lines nguy hiểm hệ thống; Phát hiện và cảnh báo kịp thời các command lines nguy hiểm sử dụng thiết bị được nâng bình thường; được các ứng dụng đã chạy phát hiện và cảnh báo kịp thời
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Process liên quan tới security tuân thủ 100%
-                        <br />
+                        Process liên quan tới security tuân thủ 100%<br />
                         100% apply Vault để quản lý SSH Key
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-left align-top">
-                        PLAT-325
-                        <br />
+                        PLAT-325<br />
                         PLAT-343
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
@@ -181,13 +168,10 @@ export default function DaoTaoVaPhatTrien() {
                     {/* Row 2 */}
                     <tr>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Tìm hiểu và đưa ra action dự phòng cho các vấn đề
-                        Security phổ biến
+                        Tìm hiểu và đưa ra action dự phòng cho các vấn đề Security phổ biến
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Xác định các lỗ hổng phổ biến; Nghiên cứu các báo cáo và
-                        tài liệu gần đây; Thiết lập quy trình dự phòng
-                        (playbook)
+                        Xác định các lỗ hổng phổ biến; Nghiên cứu các báo cáo và tài liệu gần đây; Thiết lập quy trình dự phòng (playbook)
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-left align-top">
@@ -201,37 +185,27 @@ export default function DaoTaoVaPhatTrien() {
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Không xảy ra incident liên quan tới downtime trong hệ
-                        thống
+                        Không xảy ra incident liên quan tới downtime trong hệ thống
                       </td>
                     </tr>
 
                     {/* Objective 2: Stability & Reliability */}
                     <tr className="bg-cyan-400 text-black font-semibold">
-                      <td
-                        className="border border-gray-400 px-3 py-2"
-                        colSpan={8}
-                      >
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         Objective 2: Stability & Reliability
                       </td>
                     </tr>
 
                     {/* KR 1: Safety upgrade/deployment with K8s */}
                     <tr className="bg-yellow-200 font-semibold">
-                      <td
-                        className="border border-gray-400 px-3 py-2"
-                        colSpan={8}
-                      >
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         KR 1: Safety upgrade/deployment with K8s
                       </td>
                     </tr>
 
                     {/* Multi Clusters for K8s */}
-                    <tr className="bg-purple-200 ">
-                      <td
-                        className="border border-gray-400 px-3 py-2"
-                        colSpan={8}
-                      >
+                    <tr className="bg-orange-200">
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         Multi Clusters for K8s
                       </td>
                     </tr>
@@ -242,22 +216,17 @@ export default function DaoTaoVaPhatTrien() {
                         Multi Clusters for K8s (SRE)
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Triển khai cụm Stateless mới trên môi trường Prod
-                        <br />
-                        Hoàn tất tách domain/services khỏi Stateful
-                        <br />
+                        Triển khai cụm Stateless mới trên môi trường Prod<br />
+                        Hoàn tất tách domain/services khỏi Stateful<br />
                         Tách biệt các services trong cụm Stateless mới của Prod
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        0% downtime trong quá trình nâng cấp
-                        <br />
-                        Đảm bảo hoạt động 99.99%
-                        <br />
+                        0% downtime trong quá trình nâng cấp<br />
+                        Đảm bảo hoạt động 99.99%<br />
                         Đảm bảo cụm clusters hoạt động 99.99%
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-left align-top">
-                        PLAT-323
-                        <br />
+                        PLAT-323<br />
                         PLAT-359
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
@@ -268,17 +237,13 @@ export default function DaoTaoVaPhatTrien() {
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Triển khai thành công cụm Stateless trên Prod, hệ thống
-                        ổn định, các stateless deploy trên multi clusters
+                        Triển khai thành công cụm Stateless trên Prod, hệ thống ổn định, app stateless deploy trên multi clusters
                       </td>
                     </tr>
 
                     {/* Upgrade K8s */}
-                    <tr className="bg-purple-200 ">
-                      <td
-                        className="border border-gray-400 px-3 py-2"
-                        colSpan={8}
-                      >
+                    <tr className="bg-orange-200">
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         Upgrade K8s
                       </td>
                     </tr>
@@ -286,30 +251,21 @@ export default function DaoTaoVaPhatTrien() {
                     {/* Row 4 */}
                     <tr>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Upgrade K8s 1.29
-                        <br />
-                        Upgrade toàn bộ các cluster-env của TDP & SRE (Prod +
-                        Non-Prod)
+                        Upgrade K8s 1.29<br />
+                        Upgrade toàn bộ các cluster-env của TDP & SRE (Prod + Non-Prod)
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Nâng cấp K8s từ phiên bản 1.28 lên 1.29 cho các env
-                        <br />
-                        Upgrade các phiên bản K8s 1.29 cho các cluster-env của
-                        TDP và SRE (Prod + Non-Prod)
-                        <br />
-                        TDP (Compute, Service, Storage)
-                        <br />
-                        Chuẩn hóa quy trình Internal Tools và nâng cấp K8s lên
-                        1.29
+                        Nâng cấp K8s từ phiên bản 1.28 lên 1.29 cho các env<br />
+                        Thực hiện nâng cấp cho toàn bộ các cluster-env của TDP và SRE (Prod + Non-Prod)<br />
+                        TDP (Compute, Service, Storage)<br />
+                        Chuẩn hóa quy trình Internal Tools và nâng cấp K8s lên 1.29
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
                         100% các clusters được nâng cấp lên 1.29
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-left align-top">
-                        PLAT-360
-                        <br />
-                        PLAT-339
-                        <br />
+                        PLAT-360<br />
+                        PLAT-339<br />
                         PLAT-347
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
@@ -322,9 +278,7 @@ export default function DaoTaoVaPhatTrien() {
                         Mỗi quý nâng cấp K8s lên 1 version cho các môi trường
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Mỗi quý sẽ có action nâng cấp K8s lên 1 version cho các
-                        môi trường • Upgrade toàn bộ các cụm lên 1.29 • SRE-Prod
-                        • SRE-Internal-Tools
+                        Mỗi quý sẽ có action nâng cấp K8s lên 1 version cho các môi trường • Upgrade toàn bộ các cụm lên 1.29 • SRE-Prod • SRE-Internal-Tools
                       </td>
                     </tr>
 
@@ -341,14 +295,10 @@ export default function DaoTaoVaPhatTrien() {
                         Đảm bảo không mất logs/metrics
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Đảm bảo tính ổn định observability hoạt động đạt hiệu
-                        <br />
-                        Hạn chế việc loại bỏ log/metrics
-                        <br />
-                        Có view theo dõi của việc hệ thống observability
-                        <br />
-                        Đánh giá hiệu quả của việc backup schema lại
-                        <br />
+                        Đảm bảo tính ổn định observability hoạt động đạt hiệu quả<br />
+                        Hạn chế việc loại bỏ log/metrics<br />
+                        Có view theo dõi của việc hệ thống observability<br />
+                        Đánh giá hiệu quả của việc backup schema lại<br />
                         Chuẩn hóa Dashboard/monitoring cho các component
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top"></td>
@@ -359,8 +309,7 @@ export default function DaoTaoVaPhatTrien() {
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Đảm bảo tăng observ để thúc hiện các yêu cầu đạo có thể
-                        hỗ trợ luận lý SRE-Roadmap 2024's Note
+                        Đảm bảo tăng observ để thực hiện các yêu cầu đọc có thể hỗ trợ luận lý SRE-Roadmap 2024's Note
                       </td>
                     </tr>
 
@@ -372,7 +321,7 @@ export default function DaoTaoVaPhatTrien() {
                     </tr>
 
                     {/* Database & Storage */}
-                    <tr className="bg-purple-200">
+                    <tr className="bg-orange-200">
                       <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         Database & Storage
                       </td>
@@ -381,35 +330,26 @@ export default function DaoTaoVaPhatTrien() {
                     {/* Row 6 */}
                     <tr>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Apply standard backup flow for Stateful components
-                        (MongoDB, Redis, SRE)
+                        Apply standard backup flow for Stateful components (MongoDB, Redis, SRE)
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Đưng một tool/pattern backup chung cho toàn bộ hệ
-                        thống/migrated vào backup DB hiện tại sẽ sẵn pattern
-                        chung; Visualizable được các action backup chung; Check
-                        được trạng thái các job; Apply backup strategy dùng 3rd
-                        party được; Verify được tính chính của việc restore;
-                        Apply recovery cho các thành phần Stateful MongoDB,
-                        Redis
+                        Dựng một tool/pattern backup chung cho toàn bộ hệ thống/migrated vào backup DB hiện tại sẽ sẵn pattern chung; Visualizable được các action backup chung; Check được trạng thái các job; Apply backup strategy dùng 3rd party được; Verify được tính chính của việc restore; Apply recovery cho các thành phần Stateful MongoDB, Redis
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Visualizable được các action backup chung, check được
-                        trạng thái các job; Apply thành công backup cho Stateful
-                        component; Verify được data có chính có được viết thành
-                        công hay khi backup
+                        Visualizable được các action backup chung, check được trạng thái các job; Apply thành công backup cho Stateful component; Verify được data có chính có được viết thành công hay khi backup
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-left align-top">
                         PLAT-372
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
-                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
+                        <span className="inline-block bg-rose-600 text-white text-xs px-2 py-1 rounded-full font-semibold">
+                          HIGH
+                        </span>
+                      </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Đây là vấn đề ưu tiên flow backup chung; Apply thành
-                        công tool; Thành công khi restore cho tất cả backup cho
-                        các thành phần Stateful MongoDB, Redis Apply lại thành
-                        công dao to visualizable các thành phần
+                        Đây là vấn đề ưu tiên flow backup chung; Apply thành công tool; Thành công khi restore cho tất cả backup cho các thành phần Stateful MongoDB, Redis Apply lại thành công dao to visualizable các thành phần
                       </td>
                     </tr>
 
@@ -424,13 +364,17 @@ export default function DaoTaoVaPhatTrien() {
                         PLAT-368
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
-                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
+                        <span className="inline-block bg-rose-600 text-white text-xs px-2 py-1 rounded-full font-semibold">
+                          HIGH
+                        </span>
+                      </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 align-top"></td>
                     </tr>
 
                     {/* Ceph Storage */}
-                    <tr className="bg-purple-200">
+                    <tr className="bg-orange-200">
                       <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         Ceph Storage
                       </td>
@@ -439,13 +383,11 @@ export default function DaoTaoVaPhatTrien() {
                     {/* Row 8 */}
                     <tr>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Giảm thiểu các rủi ro liên quan tới Cụm TDP's Ceph
-                        <br />
+                        Giảm thiểu các rủi ro liên quan tới Cụm TDP's Ceph<br />
                         Re-design lại các pool của ceph üz
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Review lại toàn bộ các vấn đề liên quan tới Ceph
-                        <br />
+                        Review lại toàn bộ các vấn đề liên quan tới Ceph<br />
                         Re-design lại các pool của ceph üz
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top"></td>
@@ -453,7 +395,11 @@ export default function DaoTaoVaPhatTrien() {
                         PLAT-361
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
-                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
+                        <span className="inline-block bg-amber-600 text-white text-xs px-2 py-1 rounded-full font-semibold">
+                          MEDIUM
+                        </span>
+                      </td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
                         Review, giúp cải thiện performance của Ceph
@@ -461,7 +407,7 @@ export default function DaoTaoVaPhatTrien() {
                     </tr>
 
                     {/* Deployment & CI/CD */}
-                    <tr className="bg-purple-200">
+                    <tr className="bg-orange-200">
                       <td className="border border-gray-400 px-3 py-2" colSpan={8}>
                         Deployment & CI/CD
                       </td>
@@ -470,10 +416,8 @@ export default function DaoTaoVaPhatTrien() {
                     {/* Row 9 */}
                     <tr>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Xây dựng DR cho hệ thống Registry
-                        <br />
-                        Build Harbor backup system in Serving cluster
-                        <br />
+                        Xây dựng DR cho hệ thống Registry<br />
+                        Build Harbor backup system in Serving cluster<br />
                         Remove stale (OCP) to save money
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top"></td>
@@ -497,23 +441,15 @@ export default function DaoTaoVaPhatTrien() {
                     {/* Row 10 */}
                     <tr>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Quy hoạch lại resources của hạ tầng TK & Giảm thiểu rủi
-                        ro liên quan đến phần cứng
+                        Quy hoạch lại resources của hạ tầng TK & Giảm thiểu rủi ro liên quan đến phần cứng
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Đánh giá lại nguyên hiện có; Phân tích toàn diện cấu
-                        hình thiết bị; Đối với các thiết bị cũ có thể có tác
-                        hại; Hỗ trợ sử dụng tài nguyên theo hiệu quả; và nâng
-                        cao khả năng
+                        Đánh giá lại nguồn hiện có; Phân tích toàn diện cấu hình thiết bị; Đối với các thiết bị cũ có thể có tác hại; Hỗ trợ sử dụng tài nguyên theo hiệu quả; và nâng cao khả năng
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Đánh giá: 100% các cluster hiện tại không gây ra tình
-                        trạng thiếu kha thiếu resources
-                        <br />
-                        Đảm bảo sử dụng hiệu 80% resources có sẵn
-                        <br />
-                        Đảm bảo sử dụng tài nguyên hiệu quả 90% resources có sử
-                        của toàn hệ thống
+                        Đánh giá: 100% các cluster hiện tại không gây ra tình trạng thiếu kha thiếu resources<br />
+                        Đảm bảo sử dụng hiệu 80% resources có sẵn<br />
+                        Đảm bảo sử dụng tài nguyên hiệu quả 90% resources có sử của toàn hệ thống
                       </td>
                       <td className="border border-gray-400 px-3 py-2 text-left align-top">
                         PLAT-343
@@ -530,22 +466,128 @@ export default function DaoTaoVaPhatTrien() {
                         Đảm bảo không có ảnh hưởng khi onboard 1 khách hàng mới
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Đảm bảo hệ thống đơn giản, tăng sự tin cậy của khách
-                        hàng
-                        <br />
-                        Tối ưu hiệu suất hệ thống
-                        <br />
+                        Đảm bảo hệ thống đơn giản, tăng sự tin cậy của khách hàng<br />
+                        Tối ưu hiệu suất hệ thống<br />
                         Tiết kiệm chi phí vận hành
                       </td>
                       <td className="border border-gray-400 px-3 py-2 align-top">
-                        Không tăng số lượng incident
-                        <br />
-                        Thời gian phản hồi và xử lý &lt; 5 phút
-                        <br />
-                        Tối ưu các vòng deploy/rollback
-                        <br />
-                        Mức sử dụng tài nguyên khi onboard khách hàng &lt; 50%
+                        Không tăng incident<br />
+                        Thời gian phản hồi và xử lý &lt; 5 phút<br />
+                        Tối ưu được các vòng hiến thiệu mật tiết các vòng<br />
+                        Mức sử dụng tài nguyên hạ tầng khi onboard khách hàng &lt; 50%
                       </td>
+                      <td className="border border-gray-400 px-3 py-2 text-left align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                    </tr>
+
+                    {/* KR5: Incident */}
+                    <tr className="bg-yellow-200 font-semibold">
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
+                        KR5: Incident
+                      </td>
+                    </tr>
+
+                    {/* Row 12 */}
+                    <tr>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Reduce incident trong quý và năm
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Cụ thể là giảm thiểu incident trong quý và năm<br />
+                        Thiết lập các chu trình quản lý incident quý và tuần lý quàn trị để cấp từ cấp 1, cách tiếp quất
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Số lượng incident trong quý &lt; 5<br />
+                        Thời gian vượt quit thể giải phàn đàn hiểu
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-left align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
+                        <span className="inline-block bg-rose-600 text-white text-xs px-2 py-1 rounded-full font-semibold">
+                          HIGH
+                        </span>
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                    </tr>
+
+                    {/* Objective 3: Simplicity */}
+                    <tr className="bg-cyan-400 text-black font-semibold">
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
+                        Objective 3: Simplicity
+                      </td>
+                    </tr>
+
+                    {/* Row 13 */}
+                    <tr>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Chuẩn hóa/Quy hoạch lại các repo phía TDP/SRE
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-left align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top">
+                        <span className="inline-block bg-green-600 text-white text-xs px-2 py-1 rounded-full font-semibold">
+                          URGENT
+                        </span>
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Cho Department để hiểu rõ hiện tại các TDP - Alternative Pipeline
+                      </td>
+                    </tr>
+
+                    {/* Objective 4: Extend goals */}
+                    <tr className="bg-cyan-400 text-black font-semibold">
+                      <td className="border border-gray-400 px-3 py-2" colSpan={8}>
+                        Objective 4: Extend goals
+                      </td>
+                    </tr>
+
+                    {/* Row 14 */}
+                    <tr>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Nghiên cứu, lên phương án dựng/upgrade cụm Kafka hiện tại
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Lên phương án dựng/upgrade cụm Kafka mới (thay thế cụm Kafka hiện tại)
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-left align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                    </tr>
+
+                    {/* Row 15 */}
+                    <tr>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Nghiên cứu và lên phương án phân bổ tài nguyên/chi phí hạ tầng theo tenant
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Xác định nhu cầu cách thiết lập phù hợp với resources theo định ký ngùyan từ phía tenant<br />
+                        Xây dựng mô hình có bù sa bù logging/mong đợi địa điền để có thể đưa ngùyan của các tenant
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-left align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                    </tr>
+
+                    {/* Row 16 */}
+                    <tr>
+                      <td className="border border-gray-400 px-3 py-2 align-top">
+                        Tiếp quản lại hạ tầng Blockchain
+                      </td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
+                      <td className="border border-gray-400 px-3 py-2 align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-left align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
                       <td className="border border-gray-400 px-3 py-2 text-center align-top"></td>
