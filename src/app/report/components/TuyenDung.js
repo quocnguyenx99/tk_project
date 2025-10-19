@@ -183,7 +183,7 @@ export default function TuyenDung() {
           {/* Bảng Tỷ lệ nhân viên hiểu rõ OKR cá nhân -> CHART */}
           <div className="overflow-x-auto mb-8">
             <h2 className="text-xl font-semibold mb-4 text-center text-black">
-              Tỷ lệ nhân viên hiểu rõ OKR cá nhân giai đoạn 2022 - 2025
+              Biểu đồ 4.1: Tỷ lệ nhân viên hiểu rõ OKR cá nhân giai đoạn 2022 - 2025
             </h2>
             <div
               className="w-full max-w-[650px] sm:max-w-[750px] md:max-w-[900px] mx-auto"
@@ -196,7 +196,7 @@ export default function TuyenDung() {
           {/* Bảng tổng hợp OKR -> CHART: % OKR nhân viên liên kết với OKR phòng ban */}
           <div className="overflow-x-auto mb-8">
             <h2 className="text-xl font-semibold mb-4 text-center text-black">
-              Tỷ lệ OKR nhân viên liên kết với OKR phòng ban
+              Biểu đồ 4.2:Tỷ lệ OKR nhân viên liên kết với OKR phòng ban
             </h2>
             <div
               className="w-full max-w-[650px] sm:max-w-[750px] md:max-w-[900px] mx-auto"
@@ -209,7 +209,7 @@ export default function TuyenDung() {
           {/* Bảng Tỷ lệ nhân viên thực hiện check-in OKR đúng hạn -> CHART */}
           <div className="overflow-x-auto mb-8">
             <h2 className="text-xl font-semibold mb-4 text-center text-black">
-              Tỷ lệ nhân viên check-in OKR đúng hạn
+              Biểu đồ 4.3:Tỷ lệ nhân viên check-in OKR đúng hạn
             </h2>
             <div
               className="w-full max-w-[650px] sm:max-w-[750px] md:max-w-[900px] mx-auto"
@@ -222,7 +222,7 @@ export default function TuyenDung() {
           {/* Bảng Số ý tưởng được thử nghiệm theo quý */}
           <div className="overflow-x-auto mb-8">
             <h2 className="text-xl font-semibold mb-4 text-center text-black">
-              Số ý tưởng được thử nghiệm theo quý giai đoạn 2022 - 2025
+              Bảng 4.1: Số ý tưởng được thử nghiệm theo quý giai đoạn 2022 - 2025
             </h2>
             <table className="w-full border-collapse border text-black border-gray-300">
               <thead>

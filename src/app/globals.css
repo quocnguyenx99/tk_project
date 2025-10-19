@@ -10,9 +10,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #000000;  /* always black text */
+    --background: #ffffff;  /* keep light background for readability */
   }
+  html { color-scheme: light; } /* avoid UA controls switching to dark */
 }
 
 html,
@@ -27,7 +28,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: '14px';
+  font-size: 14px;
 }
 
 * {
@@ -39,12 +40,6 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }
 
 @keyframes shine {
